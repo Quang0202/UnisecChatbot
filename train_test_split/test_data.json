@@ -1,0 +1,644 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "intent_chao_mung",
+        "text": "lovely day isn't it"
+      },
+      {
+        "intent": "intent_chao_mung",
+        "text": "a good day"
+      },
+      {
+        "intent": "intent_chao_mung",
+        "text": "long time no see"
+      },
+      {
+        "intent": "intent_chao_mung",
+        "text": "greetings"
+      },
+      {
+        "intent": "intent_hoi_diem_chuan",
+        "entities": [
+          {
+            "start": 0,
+            "end": 39,
+            "value": "Học Viện Công Nghệ Bưu Chính Viễn Thông",
+            "entity": "entity_truong_dai_hoc"
+          }
+        ],
+        "text": "Học Viện Công Nghệ Bưu Chính Viễn Thông lấy bao nhiêu điểm"
+      },
+      {
+        "intent": "intent_hoi_diem_chuan",
+        "entities": [
+          {
+            "start": 18,
+            "end": 34,
+            "value": "đại học hòa bình",
+            "entity": "entity_truong_dai_hoc"
+          }
+        ],
+        "text": "điểm chuẩn trường đại học hòa bình là bao nhiêu"
+      },
+      {
+        "intent": "intent_hoi_diem_chuan",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "kế toán",
+            "entity": "entity_nganh_hoc"
+          },
+          {
+            "start": 25,
+            "end": 44,
+            "value": "đại học công nghiệp",
+            "entity": "entity_truong_dai_hoc"
+          }
+        ],
+        "text": "điểm chuẩn ngành kế toán đại học công nghiệp là bao nhiêu?"
+      },
+      {
+        "intent": "intent_hoi_diem_chuan",
+        "entities": [
+          {
+            "start": 11,
+            "end": 36,
+            "value": "Học Viện An Ninh Nhân Dân",
+            "entity": "entity_truong_dai_hoc"
+          }
+        ],
+        "text": "điểm chuẩn Học Viện An Ninh Nhân Dân ra sao"
+      },
+      {
+        "intent": "intent_hoi_diem_chuan",
+        "entities": [
+          {
+            "start": 11,
+            "end": 38,
+            "value": "Đại học Công nghệ Miền Đông",
+            "entity": "entity_truong_dai_hoc"
+          },
+          {
+            "start": 43,
+            "end": 47,
+            "value": "2018",
+            "entity": "entity_nam"
+          }
+        ],
+        "text": "điểm chuẩn Đại học Công nghệ Miền Đông năm 2018"
+      },
+      {
+        "intent": "intent_hoi_diem_chuan",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "Đại Học FPT",
+            "entity": "entity_truong_dai_hoc"
+          }
+        ],
+        "text": "trường Đại Học FPT lấy bao nhiêu điểm"
+      },
+      {
+        "intent": "intent_hoi_diem_chuan",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "2019",
+            "entity": "entity_nam"
+          },
+          {
+            "start": 14,
+            "end": 33,
+            "value": "công nghệ thông tin",
+            "entity": "entity_nganh_hoc"
+          },
+          {
+            "start": 41,
+            "end": 77,
+            "value": "Đại Học Công Nghiệp Thực Phẩm TP HCM",
+            "entity": "entity_truong_dai_hoc"
+          }
+        ],
+        "text": "năm 2019 khoa công nghệ thông tin trường Đại Học Công Nghiệp Thực Phẩm TP HCM lấy bao nhiêu điểm"
+      },
+      {
+        "intent": "intent_hoi_diem_chuan",
+        "entities": [
+          {
+            "start": 17,
+            "end": 36,
+            "value": "quản lý công nghiệp",
+            "entity": "entity_nganh_hoc"
+          }
+        ],
+        "text": "điểm chuẩn ngành quản lý công nghiệp"
+      },
+      {
+        "intent": "intent_chon_truong",
+        "entities": [
+          {
+            "start": 34,
+            "end": 35,
+            "value": "V",
+            "entity": "entity_khoi_thi"
+          }
+        ],
+        "text": "Những  trường nào tuyển sinh khối V"
+      },
+      {
+        "intent": "intent_chon_truong",
+        "entities": [
+          {
+            "start": 27,
+            "end": 31,
+            "value": "25,5",
+            "entity": "entity_diem"
+          }
+        ],
+        "text": "trường nào điểm chuẩn dưới 25,5"
+      },
+      {
+        "intent": "intent_chon_truong",
+        "entities": [
+          {
+            "start": 19,
+            "end": 34,
+            "value": "vật lý kỹ thuật",
+            "entity": "entity_nganh_hoc"
+          }
+        ],
+        "text": "trường nào đào tạo vật lý kỹ thuật"
+      },
+      {
+        "intent": "intent_chon_truong",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "trung",
+            "entity": "entity_vung_mien"
+          }
+        ],
+        "text": "nên học trường nào ở miền trung"
+      },
+      {
+        "intent": "intent_chon_truong",
+        "entities": [
+          {
+            "start": 28,
+            "end": 46,
+            "value": "công nghệ sinh học",
+            "entity": "entity_nganh_hoc"
+          }
+        ],
+        "text": "có những trường nào đào tạo công nghệ sinh học"
+      },
+      {
+        "intent": "intent_chon_truong",
+        "entities": [
+          {
+            "start": 19,
+            "end": 38,
+            "value": "công nghệ thông tin",
+            "entity": "entity_nganh_hoc"
+          }
+        ],
+        "text": "trường nào đào tạo công nghệ thông tin"
+      },
+      {
+        "intent": "intent_chon_truong",
+        "entities": [
+          {
+            "start": 17,
+            "end": 18,
+            "value": "A",
+            "entity": "entity_khoi_thi"
+          }
+        ],
+        "text": "em học giỏi khối A thì nên học trường nào"
+      },
+      {
+        "intent": "intent_chon_truong",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "24",
+            "entity": "entity_diem"
+          },
+          {
+            "start": 22,
+            "end": 23,
+            "value": "b",
+            "entity": "entity_khoi_thi"
+          },
+          {
+            "start": 49,
+            "end": 55,
+            "value": "hà nội",
+            "entity": "entity_tinh_thanh"
+          }
+        ],
+        "text": "tôi được 24 điểm khối b thì nên học trường nào ở hà nội"
+      },
+      {
+        "intent": "intent_chon_truong",
+        "entities": [
+          {
+            "start": 22,
+            "end": 33,
+            "value": "thái nguyên",
+            "entity": "entity_tinh_thanh"
+          }
+        ],
+        "text": "có những trường nào ở thái nguyên"
+      },
+      {
+        "intent": "intent_chon_truong",
+        "entities": [
+          {
+            "start": 32,
+            "end": 35,
+            "value": "bắc",
+            "entity": "entity_vung_mien"
+          }
+        ],
+        "text": "tôi muốn chọn trường học ở Miền bắc"
+      },
+      {
+        "intent": "intent_chon_nganh",
+        "entities": [
+          {
+            "start": 7,
+            "end": 31,
+            "value": "đại học bách khoa hà nội",
+            "entity": "entity_truong_dai_hoc"
+          }
+        ],
+        "text": "trường đại học bách khoa hà nội có những ngành nào"
+      },
+      {
+        "intent": "intent_chon_nganh",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "24",
+            "entity": "entity_diem"
+          },
+          {
+            "start": 22,
+            "end": 25,
+            "value": "a00",
+            "entity": "entity_khoi_thi"
+          },
+          {
+            "start": 47,
+            "end": 53,
+            "value": "hà nội",
+            "entity": "entity_tinh_thanh"
+          }
+        ],
+        "text": "tôi được 24 điểm khối a00, nên học ngành nào ở hà nội"
+      },
+      {
+        "intent": "intent_chon_nganh",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "Đại học giao thông",
+            "entity": "entity_truong_dai_hoc"
+          }
+        ],
+        "text": "Đại học giao thông vận tải có những ngành nào"
+      },
+      {
+        "intent": "intent_chon_nganh",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "Đại học điện lực",
+            "entity": "entity_truong_dai_hoc"
+          }
+        ],
+        "text": "Đại học điện lực đào tạo những ngành nào"
+      },
+      {
+        "intent": "intent_hoi_khoi_thi",
+        "entities": [
+          {
+            "start": 7,
+            "end": 21,
+            "value": "đại học hà nội",
+            "entity": "entity_truong_dai_hoc"
+          }
+        ],
+        "text": "trường đại học hà nội xét tuyển khối nào"
+      },
+      {
+        "intent": "intent_hoi_khoi_thi",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "điện",
+            "entity": "entity_nganh_hoc"
+          }
+        ],
+        "text": "Thi ngành điện cần học tổ hợp môn nào"
+      },
+      {
+        "intent": "intent_hoi_ma_truong",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "DDB",
+            "entity": "entity_ma_truong"
+          }
+        ],
+        "text": "DDB là mã trường của trường nào"
+      },
+      {
+        "intent": "intent_hoi_ma_truong",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Đại học Cần thơ",
+            "entity": "entity_truong_dai_hoc"
+          }
+        ],
+        "text": "Đại học Cần thơ có mã trường là gì"
+      },
+      {
+        "intent": "intent_hoi_dia_chi_truong",
+        "entities": [
+          {
+            "start": 7,
+            "end": 53,
+            "value": "đại học bách khoa đại học quốc gia hồ chí minh",
+            "entity": "entity_truong_dai_hoc"
+          }
+        ],
+        "text": "trường đại học bách khoa đại học quốc gia hồ chí minh ở đâu"
+      },
+      {
+        "intent": "intent_hoi_dia_chi_truong",
+        "entities": [
+          {
+            "start": 7,
+            "end": 24,
+            "value": "đại học công nghệ",
+            "entity": "entity_truong_dai_hoc"
+          }
+        ],
+        "text": "trường đại học công nghệ ở đâu?"
+      },
+      {
+        "intent": "intent_hoi_xep_hang",
+        "entities": [
+          {
+            "start": 7,
+            "end": 26,
+            "value": "đại học công nghiệp",
+            "entity": "entity_truong_dai_hoc"
+          }
+        ],
+        "text": "trường đại học công nghiệp xếp thứ mấy"
+      },
+      {
+        "intent": "intent_hoi_xep_hang",
+        "entities": [
+          {
+            "start": 6,
+            "end": 32,
+            "value": "đại học giao thông vận tải",
+            "entity": "entity_truong_dai_hoc"
+          }
+        ],
+        "text": "trườngđại học giao thông vận tải xếp hạng bao nhiêu?"
+      },
+      {
+        "intent": "intent_hoi_khung_dao_tao",
+        "entities": [
+          {
+            "start": 20,
+            "end": 50,
+            "value": "biểu diễn nhạc cụ truyền thống",
+            "entity": "entity_nganh_hoc"
+          }
+        ],
+        "text": "khung đào tạo ngành biểu diễn nhạc cụ truyền thống"
+      },
+      {
+        "intent": "intent_hoi_khung_dao_tao",
+        "entities": [
+          {
+            "start": 6,
+            "end": 33,
+            "value": "công nghệ chế biến thuỷ sản",
+            "entity": "entity_nganh_hoc"
+          }
+        ],
+        "text": "ngành công nghệ chế biến thuỷ sản phải học những môn nào"
+      },
+      {
+        "intent": "intent_hoi_muc_luong",
+        "entities": [
+          {
+            "start": 10,
+            "end": 27,
+            "value": "đạo diễn sân khấu",
+            "entity": "entity_nganh_hoc"
+          }
+        ],
+        "text": "học ngành đạo diễn sân khấu lương bao nhiêu"
+      },
+      {
+        "intent": "intent_hoi_muc_luong",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "du lịch",
+            "entity": "entity_nganh_hoc"
+          }
+        ],
+        "text": "học ngành du lịch sau ra trường lương bao nhiêu"
+      },
+      {
+        "intent": "intent_hoi_viec_lam",
+        "entities": [
+          {
+            "start": 10,
+            "end": 34,
+            "value": "Điện tự động công nghiệp",
+            "entity": "entity_nganh_hoc"
+          }
+        ],
+        "text": "học ngành Điện tự động công nghiệp sau ra trường làm gì"
+      },
+      {
+        "intent": "intent_hoi_viec_lam",
+        "entities": [
+          {
+            "start": 6,
+            "end": 14,
+            "value": "mỹ thuật",
+            "entity": "entity_nganh_hoc"
+          }
+        ],
+        "text": "ngành mỹ thuật có dễ xin việc không"
+      },
+      {
+        "intent": "intent_hoi_thong_tin_nganh",
+        "entities": [
+          {
+            "start": 16,
+            "end": 28,
+            "value": "nhật bản học",
+            "entity": "entity_nganh_hoc"
+          }
+        ],
+        "text": "thông tin ngành nhật bản học"
+      },
+      {
+        "intent": "intent_hoi_thong_tin_nganh",
+        "entities": [
+          {
+            "start": 6,
+            "end": 15,
+            "value": "marketing",
+            "entity": "entity_nganh_hoc"
+          }
+        ],
+        "text": "ngành marketing là gì"
+      },
+      {
+        "intent": "intent_hoi_thong_tin_truong",
+        "entities": [
+          {
+            "start": 11,
+            "end": 29,
+            "value": "Đại Học Tiền Giang",
+            "entity": "entity_truong_dai_hoc"
+          }
+        ],
+        "text": "học trường Đại Học Tiền Giang có tốt không"
+      },
+      {
+        "intent": "intent_hoi_thong_tin_truong",
+        "entities": [
+          {
+            "start": 21,
+            "end": 36,
+            "value": "Đại Học Đông Đô",
+            "entity": "entity_truong_dai_hoc"
+          }
+        ],
+        "text": "giới thiệu về trường Đại Học Đông Đô"
+      },
+      {
+        "intent": "intent_hoi_ds_nganh",
+        "entities": [
+          {
+            "start": 7,
+            "end": 33,
+            "value": "học viện cảnh sát nhân dân",
+            "entity": "entity_truong_dai_hoc"
+          }
+        ],
+        "text": "trường học viện cảnh sát nhân dân có mấy ngành"
+      },
+      {
+        "intent": "intent_hoi_ds_nganh",
+        "entities": [
+          {
+            "start": 7,
+            "end": 33,
+            "value": "học viện cảnh sát nhân dân",
+            "entity": "entity_truong_dai_hoc"
+          },
+          {
+            "start": 51,
+            "end": 78,
+            "value": "công nghệ kỹ thuật xây dựng",
+            "entity": "entity_nganh_hoc"
+          }
+        ],
+        "text": "trường học viện cảnh sát nhân dân có đào tạo ngành công nghệ kỹ thuật xây dựng không"
+      },
+      {
+        "intent": "intent_hoi_chi_tieu",
+        "entities": [
+          {
+            "start": 6,
+            "end": 33,
+            "value": "công nghệ kỹ thuật xây dựng",
+            "entity": "entity_nganh_hoc"
+          },
+          {
+            "start": 41,
+            "end": 60,
+            "value": "đại học quang trung",
+            "entity": "entity_truong_dai_hoc"
+          }
+        ],
+        "text": "ngành công nghệ kỹ thuật xây dựng trường đại học quang trung có chỉ tiêu là bao nhiêu"
+      },
+      {
+        "intent": "intent_hoi_chi_tieu",
+        "entities": [
+          {
+            "start": 7,
+            "end": 26,
+            "value": "đại học nam cần thơ",
+            "entity": "entity_truong_dai_hoc"
+          }
+        ],
+        "text": "trường đại học nam cần thơ lấy bao nhiêu sinh viên"
+      },
+      {
+        "intent": "intent_hoi_diem_uu_tien",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "cần thơ",
+            "entity": "entity_tinh_thanh"
+          }
+        ],
+        "text": "sống ở cần thơ thi đại học được cộng bao nhiêu điểm"
+      },
+      {
+        "intent": "intent_hoi_diem_uu_tien",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "hà nam",
+            "entity": "entity_tinh_thanh"
+          }
+        ],
+        "text": "điểm cộng của tỉnh hà nam là bao nhiêu"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "Đại Học Công Nghệ – Đại Học Quốc Gia Hà Nội",
+        "synonyms": [
+          "đại học công nghệ"
+        ]
+      }
+    ]
+  }
+}

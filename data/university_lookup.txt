@@ -1,0 +1,511 @@
+Học Viện An Ninh Nhân Dân
+Đại Học An Ninh Nhân Dân
+Đại Học Bách Khoa Hà Nội
+Đại học Buôn Ma Thuột
+Học Viện Biên Phòng
+Đại Học Anh Quốc Việt Nam
+Học Viện Công Nghệ Bưu Chính Viễn Thông ( Phía Bắc )
+Học Viện Công Nghệ Bưu Chính Viễn Thông (phía Nam)
+Đại Học Bà Rịa – Vũng Tàu
+Đại Học Công Nghiệp Dệt May Hà Nội
+Đại học Kinh Tế Nghệ An
+Học Viện Cảnh Sát Nhân Dân
+Đại Học Cảnh Sát Nhân Dân
+Đại Học Đông Á
+Đại Học Bình Dương
+Đại học Nông Lâm Bắc Giang
+Đại Học Quốc Tế Bắc Hà
+Đại Học Bạc Liêu
+Đại Học Chu Văn An
+Đại Học Công Nghệ Đồng Nai
+Đại Học Gia Định
+Trường Sĩ Quan Đặc Công
+Đại Học Cửu Long
+Đại Học Công Nghiệp Hà Nội
+Đại Học Công Nghệ và Quản Lý Hữu Nghị
+Đại Học Công Nghiệp Thực Phẩm TP HCM
+Đại học Công nghiệp Vinh
+Đại Học Công Nghệ Đông Á
+Đại Học Thành Đông
+Đại Học Ngoại Ngữ – Đại Học Đà Nẵng
+Khoa Giáo dục thể chất - Đại học Đà Nẵng
+Đại Học Bách Khoa – Đại Học Đà Nẵng
+Đại Học Điện Lực
+Đại Học Công Nghiệp Quảng Ninh
+Đại Học Đại Nam
+Phân Hiệu Đại Học Đà Nẵng tại Kon Tum
+Đại Học Kinh Tế – Đại Học Đà Nẵng
+Đại Học Sư Phạm – Đại Học Đà Nẵng
+Đại Học Dân Lập Duy Tân
+Đại Học Đông Đô
+Viện nghiên cứu và đào tạo Việt Anh - Đại học Đà Nẵng
+Khoa Y Dược – Đại Học Đà Nẵng
+Đại học Tài Chính – Quản Trị Kinh Doanh
+Đại học Luật - Đại Học Huế
+Khoa Giáo Dục Thể Chất – Đại Học Huế
+Khoa Du Lịch – Đại Học Huế
+Đại Học Ngoại Ngữ – Đại Học Huế
+Đại Học Hà Hoa Tiên
+Đại Học Kinh Tế – Đại Học Huế
+Đại Học Nông Lâm – Đại Học Huế
+Đại Học Nghệ Thuật – Đại Học Huế
+Đại Học Dân Lập Hải Phòng
+Phân Hiệu Đại Học Huế tại Quảng Trị
+Đại Học Sư Phạm – Đại Học Huế
+Đại Học Khoa Học – Đại Học Huế
+Đại học Hùng Vương - TPHCM
+Đại Học Y Dược – Đại Học Huế
+Đại Học Kinh Tế Kỹ Thuật Bình Dương
+Đại học Công Nghệ TPHCM
+Đại Học Dược Hà Nội
+Đại Học Kinh Tế Kỹ Thuật Công Nghiệp
+Đại học Tài Chính Kế Toán
+Đại học Kiếm Sát Hà Nội
+Đại Học Hải Dương
+Đại Học Kỹ Thuật Y Tế Hải Dương
+Đại Học Kinh Tế Công Nghiệp Long An
+Đại Học Lạc Hồng
+Đại Học Lao Động – Xã Hội ( Cơ sở phía Nam)
+Đại Học Lao Động – Xã Hội ( Cơ sở Sơn Tây )
+Đại Học Lao Động – Xã Hội ( Cơ sở Hà Nội )
+Đại học Công nghệ Miền Đông
+Đại Học Tài Chính Marketing
+Đại học Tài Nguyên và Môi Trường Hà Nội
+Đại Học Hoa Lư
+Đại học Nam Cần Thơ
+Học Viện Khoa Học Quân Sự - Hệ Dân sự
+Đại Học Ngoại Ngữ – Tin Học TPHCM
+Đại Học Đồng Nai
+Đại Học Nội Vụ
+Đại Học Phan Châu Trinh
+Đại Học Dân Lập Phương Đông
+Đại Học Phạm Văn Đồng
+Đại Học Phan Thiết
+Đại Học Dân Lập Phú Xuân
+Đại Học Phú Yên
+Đại Học Quảng Bình
+Học Viện Kĩ Thuật Quân Sự - Hệ Dân sự
+Đại Học Kinh Doanh và Công Nghệ Hà Nội
+Đại Học Quy Nhơn
+Đại Học Quang Trung
+Đại Học Quảng Nam
+"Đại Học Sân Khấu, Điện Ảnh TPHCM"
+Đại Học Công Nghệ Sài Gòn
+Đại học Sư phạm Kỹ thuật - Đại học Đà Nẵng
+Đại Học Phenikaa
+Đại Học Thái Bình
+Đại học Công Nghệ Thông Tin và Truyền Thông – Đại Học Thái Nguyên
+Đại Học Tây Đô
+Đại Học Kinh Tế  & Quản Trị Kinh Doanh – Đại Học Thái Nguyên
+Khoa Ngoại Ngữ – Đại Học Thái Nguyên
+Đại Học Hoa Sen
+Đại Học Kỹ Thuật Công Nghiệp – Đại Học Thái Nguyên
+Đại Học Thăng Long
+ĐH Tài Nguyên môi trường TPHCM
+Đại Học Nông Lâm – Đại Học Thái Nguyên
+Phân Hiệu Đại Học Thái Nguyên Tại Lào Cai
+Khoa Quốc Tế - Đại Học Thái Nguyên
+Đại Học Sư Phạm – Đại Học Thái Nguyên
+Đại Học Tôn Đức Thắng
+Đại Học Lương Thế Vinh
+Đại Học Y Dược – Đại Học Thái Nguyên
+Đại Học Khoa Học – Đại Học Thái Nguyên
+Đại Học Việt Bắc
+"Đại Học Văn Hóa, Thể Thao Và Du Lịch Thanh Hóa"
+Đại Học Văn Hiến
+Đại Học Dân Lập Văn Lang
+Đại Học Trưng Vương
+Đại Học Trà Vinh
+Đại Học Công Nghệ Vạn Xuân
+Đại Học Yersin Đà Lạt
+Học Viện Quân Y - Hệ Dân sự
+Đại Học Quốc Tế Miền Đông
+Đại Học Hòa Bình
+Đại Học Tài Chính Ngân Hàng Hà Nội
+Đại Học FPT
+Đại Học Giao Thông Vận Tải ( Cơ sở Phía Bắc )
+Đại Học Sư Phạm Nghệ Thuật Trung Ương
+Đại Học Giao Thông Vận Tải ( Cơ sở Phía Nam)
+Đại học Công nghệ Giao thông vận tải
+Đại Học Giao Thông Vận Tải TPHCM
+Học Viện Báo Chí – Tuyên Truyền
+Học Viện Chính Trị Công An Nhân Dân
+Đại Học Kỹ Thuật - Hậu Cần Công An Nhân Dân ( Phía Bắc )
+Học Viện Hành Chính Quốc Gia ( phía Bắc )
+Đại Học Kỹ Thuật - Hậu Cần Công An Nhân Dân ( Phía Nam )
+Học Viên Chính Sách và Phát Triển
+Học Viện Hành Chính Quốc Gia (phía Nam)
+Đại Học Hồng Đức
+Học Viện Hậu Cần - Hệ Quân sự
+Học Viện Hậu Cần - Hệ Dân sự
+Trường Sĩ Quan Phòng Hóa
+Đại Học Hàng Hải
+Học Viện Hàng Không Việt Nam
+Đại Học Hà Tĩnh
+Đại Học Quốc Tế Hồng Bàng
+Đại Học Hạ Long
+Đại học Thủ Đô Hà Nội
+Học Viện Phụ Nữ Việt Nam
+Học Viện Hải Quân
+Học Viện Ngoại Giao
+Học viện Tòa án
+Học Viện Tài Chính
+Học Viện Thanh Thiếu Niên Việt Nam
+Đại Học Công Nghiệp TPHCM
+Học Viện Âm Nhạc Huế
+Học viện cán bộ TPHCM
+Học Viện Nông Nghiệp Việt Nam
+Học Viện Quản Lý Giáo Dục
+Học Viện Y Dược Học Cổ Truyền Việt Nam
+Đại học Kỹ Thuật Công Nghệ Cần Thơ
+Đại Học Khoa Học Và Công Nghệ Hà Nội
+Trường Sĩ Quan Không Quân - Hệ Cao đẳng
+Trường Sĩ Quan Không Quân - Hệ Đại học
+Đại Học Kinh Tế Quốc Dân
+Học Viện Kỹ Thuật Mật Mã
+Học Viện Kĩ Thuật Quân Sự - Hệ Quân sự
+Đại Học Kinh Tế TPHCM
+Đại Học Kiến Trúc Hà Nội
+Đại Học Kiến Trúc Đà Nẵng
+Đại Học Kiến Trúc TPHCM
+Trường Sĩ Quan Lục Quân 1 - Đại học Trần Quốc Tuấn
+Trường Sĩ Quan Lục Quân 2 - Đại học Nguyễn Huệ
+Đại học Nguyễn Huệ
+Trường Sĩ Quan Chính Trị - Đại Học Chính Trị
+Trường Sĩ quan Chính trị (hệ dân sự)
+Đại Học Công Đoàn
+Đại Học Lâm Nghiệp ( Cơ sở 1 )
+Đại Học Lâm Nghiệp ( Cơ sở 2 )
+Đại Học Luật Hà Nội
+Đại Học Luật TPHCM
+Đại Học Mở TPHCM
+Đại Học Mỹ Thuật Công Nghiệp Á Châu
+Đại Học Mỏ Địa Chất
+Viện Đại Học Mở Hà Nội
+Đại Học Mỹ Thuật Công Nghiệp
+Đại Học Mỹ Thuật Việt Nam
+Đại Học Mỹ Thuật TPHCM
+Đại Học Xây Dựng Miền Tây
+Học Viện Ngân Hàng Phân Viện Bắc Ninh
+Đại Học Hà Nội
+Học Viện Ngân Hàng
+Học Viên Ngân Hàng ( Phân Viện Phú Yên )
+Đại Học Ngân Hàng TPHCM
+Phân hiệu Đại học Nông Lâm TP. HCM tại Gia Lai
+Phân hiệu Đại học Nông Lâm TP. HCM tại Ninh Thuận
+Đại Học Nông Lâm TPHCM
+Học Viện Khoa Học Quân Sự - Hệ Quân sự
+Đại Học Ngoại Thương ( Cơ sở phía Bắc )
+Đại Học Ngoại Thương (phía Nam)
+Đại Học Nguyễn Tất Thành
+Đại Học Nguyễn Trãi
+Học Viện Âm Nhạc Quốc Gia Việt Nam
+Nhạc Viện TPHCM
+Trường Sĩ Quan Pháo Binh
+Đại Học Phòng Cháy Chữa Cháy ( Phía Bắc )
+Đại Học Phòng Cháy Chữa Cháy ( Hệ Dân sự Phía Bắc )
+Đại Học Phòng Cháy Chữa Cháy (phía Nam)
+Đại Học Phòng Cháy Chữa Cháy (Hệ Dân sự Phía Nam)
+Học Viện Phòng Không – Không Quân
+Đại Học Dầu Khí Việt Nam
+Khoa Quản Trị Kinh Doanh - ĐH Quốc gia Hà Nội
+Đại Học Kinh Tế – Đại Học Quốc Gia Hà Nội
+Đại Học Ngoại Ngữ – Đại Học Quốc Gia Hà Nội
+Đại Học Công Nghệ – Đại Học Quốc Gia Hà Nội
+Khoa Luật – Đại Học Quốc Gia Hà Nội
+Khoa Quốc Tế – Đại Học Quốc Gia Hà Nội
+Đại Học Giáo Dục - Đại học Quốc Gia Hà Nội
+Đại Học Khoa Học Tự Nhiên – Đại Học Quốc Gia Hà Nội
+Đại Học Khoa Học Xã Hội và Nhân Văn – Đại Học Quốc Gia Hà Nội
+Khoa Y Dược - Đại học Quốc Gia Hà Nội
+Đại Học Bách Khoa – Đại Học Quốc Gia TPHCM
+Đại Học Công Nghệ Thông Tin – Đại Học Quốc Gia TPHCM
+Đại học Kinh Tế – Luật – Đại Học Quốc Gia TPHCM
+Đại Học Quốc Tế – Đại Học Quốc Gia TPHCM
+Đại Học Khoa Học Tự Nhiên – Đại Học Quốc Gia TPHCM
+Đại Học Khoa Học Xã Hội và Nhân Văn – Đại Học Quốc Gia TPHCM
+Khoa Y - Đại học Quốc Gia TPHCM
+Đại Học Răng – Hàm – Mặt
+Đại Học Quốc Tế RMIT Việt Nam
+Đại học Sao Đỏ
+Đại Học Sài Gòn
+Đại Học Sân Khấu Điện Ảnh
+Đại Học Sư Phạm Kỹ Thuật Hưng Yên
+Đại Học Sư Phạm Kỹ Thuật Nam Định
+Đại Học Sư Phạm Kỹ Thuật Vinh
+Trường Sĩ Quan Công Binh - Hệ Quân sự - Đại học Ngô Quyền
+Đại Học Sư Phạm Hà Nội 2
+Đại Học Đồng Tháp
+Đại Học Sư Phạm Hà Nội
+Đại Học Sư Phạm Kỹ Thuật TPHCM
+Đại Học Sư Phạm TPHCM
+Đại Học Sư Phạm Thể DụcThể Thao TPHCM
+Đại Học An Giang
+Đại Học Thái Bình Dương
+Đại Học Cần Thơ
+Trường Sĩ Quan Thông Tin - Hệ Dân Sự - Đại Học Thông Tin Liên Lạc
+Đại Học Thể Dục Thể Thao Bắc Ninh
+Đại học Thành Đô
+Đại Học Sư Phạm Thể Dục Thể Thao Hà Nội
+Đại Học Đà Lạt
+Đại học Thủ Dầu Một
+Đại Học Thể Dục Thể Thao TPHCM
+Đại Học Vinh
+Trường Sĩ  Quan Tăng – Thiết Giáp
+Đại Học Hải Phòng
+Đại học Y khoa Tokyo Việt Nam
+Đại Học Hùng Vương
+Đại học Kiên Giang
+Đại Học Thủy Lợi ( Cơ sở 1 )
+Đại Học Thủy Lợi ( Cơ sở 2 )
+Đại Học Thương Mại
+Đại học Tân Trào
+Đại Học Nha Trang
+Đại Học Tây Bắc
+Đại Học Thể Dục Thể Thao Đà Nẵng
+Đại Học Tiền Giang
+Trường Sĩ Quan Thông Tin - Hệ Quân sự - Đại Học Thông Tin Liên Lạc
+Đại Học Tây Nguyên
+Đại Học Quốc Tế Sài Gòn
+ĐH Tân Tạo
+Đại Học Y Khoa Phạm Ngọc Thạch
+Đại Học Kinh Tế -Tài Chính TPHCM
+Đại Học Kinh Bắc
+Đại học Khánh Hòa
+Đại Học Việt Đức
+Đại Học Công Nghiệp Việt Hung
+Đại Học Văn Hóa Hà Nội
+Đại Học Văn Hóa TPHCM
+Đại Học Sư Phạm Kỹ Thuật Vĩnh Long
+Trường Sĩ Quan Kĩ Thuật Quân Sự -  Hệ Quân sự - Đại Học Trần Đại Nghĩa
+Đại Học Võ Trường Toản
+Đại Học Công Nghiệp Việt Trì
+Đại Học Xây Dựng Hà Nội
+Đại Học Xây Dựng Miền Trung
+Đại Học Y Dược Cần Thơ
+Đại Học Điều Dưỡng Nam Định
+Đại học Kỹ thuật Y Dược Đà Nẵng
+Đại Học Y Dược TPHCM
+Đại Học Y Hà Nội
+Phân hiệu Đại học Y Hà Nội tại Thanh Hóa
+Đại Học Y Khoa Vinh
+Đại Học Y Dược Hải Phòng
+Học Viện Quân Y - Hệ Quân sự
+Đại Học Y Dược Thái Bình
+Đại Học Y Tế Công Cộng
+Trường Sĩ Quan Công Binh - Hệ Dân sự - Đại học Ngô Quyền
+Đại Học Văn Hóa – Nghệ Thuật Quân Đội
+Trường Sĩ Quan Kĩ Thuật Quân Sự - Hệ Dân sự - Đại Học Trần Đại Nghĩa
+Cao Đẳng An Ninh Nhân Dân 1
+Cao Đẳng An Ninh Nhân Dân 2
+Cao Đẳng Sư Phạm Hà Giang
+Cao Đẳng Sư Phạm Cao Bằng
+Cao Đẳng Sư Phạm Lào Cai
+Cao Đẳng Sư Phạm Tuyên Quang
+Cao Đẳng Sư Phạm Lạng Sơn
+Cao Đẳng Cộng Đồng Bắc Kạn
+Cao Đẳng Sư Phạm Thái Nguyên
+Cao Đẳng Sư Phạm Yên Bái
+Cao Đẳng Sơn La
+Cao Đẳng Sư Phạm Vĩnh Phúc
+Cao Đẳng Sư Phạm Quảng Ninh
+Cao Đẳng Sư Phạm Ngô Gia Tự Bắc Giang
+Cao Đẳng Sư Phạm Bắc Ninh
+Cao Đẳng Sư Phạm Hà Tây
+Cao Đẳng Hải Dương
+Cao Đẳng Sư Phạm Hưng Yên
+Cao Đẳng Sư Phạm Hòa Bình
+Cao Đẳng Sư Phạm Hà Nam
+Cao Đẳng Sư Phạm Nam Định
+Cao Đẳng Sư Phạm Thái Bình
+Cao Đẳng Sư Phạm Nghệ An
+Cao Đẳng Sư Phạm Quảng Trị
+Cao Đẳng Sư Phạm Thừa Thiên Huế
+Cao Đẳng Sư Phạm Kon Tum
+Cao Đẳng Bình Định
+Cao Đẳng Sư Phạm Gia Lai
+Cao Đẳng Sư Phạm Đăk Lăk
+Cao Đẳng Sư Phạm Nha Trang
+Cao Đẳng Sư Phạm Đà Lạt
+Cao Đẳng Sư Phạm Bình Phước
+Cao Đẳng Sư Phạm Ninh Thuận
+Cao Đẳng Sư Phạm Tây Ninh
+Cao Đẳng Cộng Đồng Bình Thuận
+Cao Đẳng Sư Phạm Long An
+Cao Đẳng Sư Phạm Bà Rịa – Vũng Tàu
+Cao Đẳng Sư Phạm Kiên Giang
+Cao Đẳng Cần Thơ
+Cao Đẳng Bến Tre
+Cao Đẳng Sư Phạm Vĩnh Long
+Cao Đẳng Sư Phạm Sóc Trăng
+Cao Đẳng Sư Phạm Cà Mau
+Cao Đẳng Sư Phạm Điện Biên
+Cao Đẳng Bán Công Công Nghệ và Quản Trị Doanh Nghiệp
+Cao Đẳng Bách Khoa Hưng Yên
+Cao Đẳng Công Nghệ Và Kinh Tế Bảo Lộc
+Cao Đẳng Y Tế Bạch Mai
+Cao Đẳng Công Nghệ và Thương Mại Hà Nội
+Cao Đẳng Bách Việt
+Cao Đẳng Y Tế Bình Dương
+Cao Đẳng Công Nghiệp Hóa Chất
+Cao Đẳng Công Nghiệp Thái Nguyên
+Cao Đẳng Công Nghiệp Cẩm Phả
+Cao Đẳng Kỹ Thuật Công Nghiệp
+Cao Đẳng Công Nghiệp Huế
+Cao Đẳng Công Nghiệp In
+Cao Đẳng Kinh Tế Công Nghiệp Hà Nội
+Cao Đẳng Công Nghệ Thủ Đức
+Cao Đẳng Công Nghiệp Tuy Hòa
+Cao Đẳng Kỹ Thuật Công Nghiệp Quảng Ngãi
+Cao Đẳng Kinh Tế Kỹ Thuật Vinatex TPHCM
+Cao Đẳng Công Nghiệp Việt Đức
+Cao Đẳng Công Nghiệp và Xây Dựng
+Cao Đẳng Công Nghiệp Hưng Yên
+Cao Đẳng Công Nghệ và Kinh Doanh Việt Tiến
+Cao Đẳng Cảnh Sát Nhân Dân 1
+Cao đẳng Cảnh sát Nhân dân II
+Cao Đẳng Tư Thục Đức Trí
+Cao Đẳng Kinh Tế Kỹ Thuật Điện Biên
+Cao đẳng Công Nghệ Thông Tin TPHCM
+Cao Đẳng Dân Lập Kinh Tế Kỹ Thuật Đông Du Đà Nẵng
+Cao Đẳng Điện Lực TPHCM
+Cao Đẳng Du Lịch Hà Nội
+Cao Đẳng Văn Hóa Nghệ Thuật và Du Lịch Nha Trang
+Cao Đẳng Mỹ Thuật Trang Trí Đồng Nai
+Cao Đẳng Nông Lâm Đông Bắc
+Cao Đẳng Công Kỹ Nghệ Đông Á
+Cao Đẳng Công Nghệ và Quản Trị Sonadezi
+Cao Đẳng Xây Dựng Công Trình Đô Thị
+Cao Đẳng Truyền Hình
+Cao Đẳng Dược Phú Thọ
+Cao Đẳng Viễn Đông
+Cao Đẳng Y Tế Điện Biên
+Cao Đẳng Kinh Tế – Kỹ Thuật Cần Thơ
+Cao Đẳng Công Nghệ Kinh Tế Và Thủy Lợi Miền Trung
+Cao Đẳng Cơ Điện Và Nông Nghiệp Nam Bộ
+Cao Đẳng Đại Việt
+Cao Đẳng Kinh Tế TPHCM
+Cao Đẳng Công Thương TPHCM
+Cao Đẳng Kinh Tế-Công Nghệ TPHCM
+Cao Đẳng Giao Thông Vận Tải II
+Cao Đẳng Giao Thông Vận Tải Miền Trung
+Cao Đẳng Giao Thông Vận Tải 3
+Cao Đẳng Giao Thông Vận Tải TPHCM
+Cao Đẳng Hàng Hải I
+Cao Đẳng Công Nghệ Và Kinh Tế Hà Nội
+Cao Đẳng Cộng Đồng Hà Nội
+Cao Đẳng Công Nghệ Thông Tin Hữu Nghị Việt Hàn
+Cao Đẳng Y Tế Hưng Yên
+Cao Đẳng Kinh Tế Kỹ Thuật Vĩnh Phúc
+Cao Đẳng Bách Khoa Đà Nẵng
+Cao Đẳng Kỹ Thuật Cao Thắng
+Cao Đẳng Kinh Tế Đối Ngoại
+Cao Đẳng Kinh Tế Kỹ Thuật Kiên Giang
+Cao Đẳng Kinh Tế – Kế Hoạch Đà Nẵng
+Cao Đẳng Cơ Khí Luyện Kim
+Cao Đẳng Kinh Tế Kỹ Thuật Miền Nam
+Cao Đẳng Kinh Tế – Kỹ Thuật Hà Nội
+Cao Đẳng Kinh Tế- Kỹ Thuật Kon Tum
+Cao Đẳng Kỹ Thuật Lý Tự Trọng TPHCM
+Cao Đẳng Kinh Tế – Kỹ Thuật Quảng Nam
+Cao Đẳng Du Lịch và Thương Mại
+Cao Đẳng Kinh Tế – Tài Chính Thái Nguyên
+Cao Đẳng Kinh Tế – Tài Chính Vĩnh Long
+Cao Đẳng Kinh Tế Kỹ Thuật Lâm Đồng
+Cao Đẳng Cộng Đồng Lào Cai
+Cao Đẳng Cộng Đồng Lai Châu
+Cao Đẳng Điện Lực Miền Trung
+Cao Đẳng Điện Tử - Điện Lạnh Hà Nội
+Cao Đẳng Lương Thực Thực Phẩm
+Cao Đẳng Lạc Việt
+Cao Đẳng Y Tế Lâm Đồng
+Cao Đẳng Sư Phạm Trung Ương
+Cao Đẳng Sư Phạm TW Nha Trang
+Cao Đẳng Sư Phạm Trung Ương TPHCM
+Cao Đẳng Thương Mại Và Du Lịch Hà Nội
+Cao Đẳng Múa Việt Nam
+Cao Đẳng Tài Nguyên và Môi Trường Miền Trung
+Cao Đẳng Thương Mại
+Cao Đẳng Công Nghệ Và Môi Trường
+Cao Đẳng Y Tế Cà Mau
+Cao Đẳng Hoan Châu
+Cao Đẳng Văn Hóa Nghệ Thuật Thái Bình
+Cao Đẳng Ngoại Ngữ – Công Nghệ Việt Nhật
+Cao Đẳng Công Nghiệp Nam Định
+Cao Đẳng Công Nghệ Hà Nội
+Cao Đẳng Nông Nghiệp Nam Bộ
+Cao Đẳng Nông Nghiệp và Phát Triển Nông Thôn Bắc Bộ
+Cao Đẳng Nghệ Thuật Hà Nội
+Cao Đẳng Văn Hóa Nghệ Thuật Việt Bắc
+Cao Đẳng Y Tế Ninh Bình
+Cao Đẳng Công Nghệ Và Kỹ Thuật Ô Tô
+Cao Đẳng Phương Đông -Quảng Nam
+Cao Đẳng Kinh Tế Kỹ Thuật TP HCM
+Cao Đẳng Phương Đông – Đà Nẵng
+Cao Đẳng Kinh Tế Kỹ Thuật Phú Thọ
+Cao Đẳng Phát Thanh Truyền Hình II
+Cao Đẳng Phát Thanh Truyền Hình I
+Cao Đẳng Công Nghiệp Phúc Yên
+Cao Đẳng Asean
+Cao Đẳng Thủy Sản
+Cao Đẳng Công Nghiệp Cao Su
+Cao Đẳng Đại Việt Sài Gòn
+Cao Đẳng Cộng Đồng Sóc Trăng
+Cao Đẳng Thống Kê
+Cao Đẳng Kinh Tế – Kỹ Thuật Thương Mại
+Cao Đẳng Thủy Lợi Bắc Bộ
+Cao Đẳng Thương Mại và Du Lịch
+Cao Đẳng Thể DụcThể ThaoThanh Hóa
+Cao Đẳng Công Nghiệp Thực Phẩm
+Cao Đẳng Tài Chính Hải Quan
+Cao Đẳng Kinh Tế - Kỹ Thuật Trung Ương
+Cao Đẳng Văn Hóa Nghệ Thuật Tây Bắc
+Cao Đẳng Văn Hóa Nghệ Thuật và Du Lịch Hạ Long
+"Cao đẳng Văn Hóa, Thể Thao Và Du Lịch Nguyễn Du"
+Cao Đẳng Văn Hóa Nghệ Thuật Đăk Lăk
+Cao Đẳng Văn Hóa Nghệ Thuật TPHCM
+Cao Đẳng Văn Hóa Nghệ Thuật và Du Lịch Sài Gòn
+Cao Đẳng Công Nghệ Viettronics
+Cao Đẳng Văn Hóa Nghệ Thuật Nghệ An
+Cao Đẳng Kỹ Thuật-Công Nghệ Vạn Xuân
+Cao Đẳng Văn Hóa Nghệ Thuật Du Lịch Yên Bái
+Cao Đẳng Công Nghệ và Kinh Tế Công Nghiệp
+Cao Đẳng Xây Dựng Số 1
+Cao Đẳng Xây Dựng Nam Định
+Cao Đẳng Xây Dựng Số 2
+Cao Đẳng Y Tế Đồng Tháp
+Cao Đẳng Y Tế Bạc Liêu
+Cao Đẳng Y Tế Cần Thơ
+Cao Đẳng Y Tế Đồng Nai
+Cao Đẳng Y Tế Thái Bình
+Cao Đẳng Y Tế Hải Phòng
+Cao Đẳng Y Tế Kiên Giang
+Cao Đẳng Y Tế Hà Nam
+Cao Đẳng Y Tế Thái Nguyên
+Cao Đẳng Y Tế Khánh Hòa
+Cao Đẳng Y Tế Lạng Sơn
+Cao Đẳng Y Tế Hà Đông
+Cao Đẳng Y Tế Hà Tĩnh
+Cao Đẳng Y Tế Phú Thọ
+Cao Đẳng Y Tế Quảng Ninh
+Cao Đẳng Y Tế Bình Định
+Cao Đẳng Dược Trung Ương
+Cao Đẳng Y Tế Thanh Hóa
+Cao Đẳng Y Tế Quảng Nam
+Cao Đẳng Y Tế Tiền Giang
+Cao Đẳng Y Tế Bình Thuận
+Cao Đẳng Y Tế Huế
+Cao Đẳng Y Tế Hà Nội
+Cao Đẳng Cộng Đồng Hải Phòng
+Cao Đẳng Cộng Đồng Hà Tây
+Cao Đẳng Cộng Đồng Đồng Tháp
+Cao Đẳng Cộng Đồng Kiên Giang
+Cao Đẳng Cộng Đồng Vĩnh Long
+Cao Đẳng Cộng Đồng Cà Mau
+Cao Đẳng Cộng Đồng Hậu Giang
+Khoa Công Nghệ – Đại Học Đà Nẵng
+Khoa Công Nghệ Thông Tin và truyền thông – Đại Học Đà Nẵng
+Cao Đẳng Kinh Tế – Kỹ Thuật – Đại Học Thái Nguyên
+Cao Đẳng Công Nghiệp Quốc Phòng
+Cao Đẳng Y Tế Sơn La
+Cao Đẳng Y Tế Trà Vinh

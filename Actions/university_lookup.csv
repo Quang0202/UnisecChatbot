@@ -1,0 +1,512 @@
+0,ten_truong,ma_truong
+1,Học Viện An Ninh Nhân Dân,ANH
+2,Đại Học An Ninh Nhân Dân,ANS
+3,Đại Học Bách Khoa Hà Nội,BKA
+4,Đại học Buôn Ma Thuột,BMU
+5,Học Viện Biên Phòng,BPH
+6,Đại Học Anh Quốc Việt Nam,BUV
+7,Học Viện Công Nghệ Bưu Chính Viễn Thông (Phía Bắc),BVH
+8,Học Viện Công Nghệ Bưu Chính Viễn Thông (phía Nam),BVS
+9,Đại Học Bà Rịa – Vũng Tàu,BVU
+10,Đại Học Công Nghiệp Dệt May Hà Nội,CCM
+11,Đại học Kinh Tế Nghệ An,CEA
+12,Học Viện Cảnh Sát Nhân Dân,CSH
+13,Đại Học Cảnh Sát Nhân Dân,CSS
+14,Đại Học Đông Á,DAD
+15,Đại Học Bình Dương,DBD
+16,Đại học Nông Lâm Bắc Giang,DBG
+17,Đại Học Quốc Tế Bắc Hà,DBH
+18,Đại Học Bạc Liêu,DBL
+19,Đại Học Chu Văn An,DCA
+20,Đại Học Công Nghệ Đồng Nai,DCD
+21,Đại Học Gia Định,DCG
+22,Trường Sĩ Quan Đặc Công,DCH
+23,Đại Học Cửu Long,DCL
+24,Đại Học Công Nghiệp Hà Nội,DCN
+25,Đại Học Công Nghệ và Quản Lý Hữu Nghị,DCQ
+26,Đại Học Công Nghiệp Thực Phẩm TP HCM,DCT
+27,Đại học Công nghiệp Vinh,DCV
+28,Đại Học Công Nghệ Đông Á,DDA
+29,Đại Học Thành Đông,DDB
+30,Đại Học Ngoại Ngữ – Đại Học Đà Nẵng,DDF
+31,Khoa Giáo dục thể chất - Đại học Đà Nẵng,DDG
+32,Đại Học Bách Khoa – Đại Học Đà Nẵng,DDK
+33,Đại Học Điện Lực,DDL
+34,Đại Học Công Nghiệp Quảng Ninh,DDM
+35,Đại Học Đại Nam,DDN
+36,Phân Hiệu Đại Học Đà Nẵng tại Kon Tum,DDP
+37,Đại Học Kinh Tế – Đại Học Đà Nẵng,DDQ
+38,Đại Học Sư Phạm – Đại Học Đà Nẵng,DDS
+39,Đại Học Dân Lập Duy Tân,DDT
+40,Đại Học Đông Đô,DDU
+41,Viện nghiên cứu và đào tạo Việt Anh - Đại học Đà Nẵng,DDV
+42,Khoa Y Dược – Đại Học Đà Nẵng,DDY
+43,Đại học Tài Chính – Quản Trị Kinh Doanh,DFA
+44,Đại học Luật - Đại Học Huế,DHA
+45,Khoa Giáo Dục Thể Chất – Đại Học Huế,DHC
+46,Khoa Du Lịch – Đại Học Huế,DHD
+47,Đại Học Ngoại Ngữ – Đại Học Huế,DHF
+48,Đại Học Hà Hoa Tiên,DHH
+49,Đại Học Kinh Tế – Đại Học Huế,DHK
+50,Đại Học Nông Lâm – Đại Học Huế,DHL
+51,Đại Học Nghệ Thuật – Đại Học Huế,DHN
+52,Đại Học Dân Lập Hải Phòng,DHP
+53,Phân Hiệu Đại Học Huế tại Quảng Trị,DHQ
+54,Đại Học Sư Phạm – Đại Học Huế,DHS
+55,Đại Học Khoa Học – Đại Học Huế,DHT
+56,Đại học Hùng Vương - TPHCM,DHV
+57,Đại Học Y Dược – Đại Học Huế,DHY
+58,Đại Học Kinh Tế Kỹ Thuật Bình Dương,DKB
+59,Đại học Công Nghệ TPHCM,DKC
+60,Đại Học Dược Hà Nội,DKH
+61,Đại Học Kinh Tế Kỹ Thuật Công Nghiệp,DKK
+62,Đại học Tài Chính Kế Toán,DKQ
+63,Đại học Kiếm Sát Hà Nội,DKS
+64,Đại Học Hải Dương,DKT
+65,Đại Học Kỹ Thuật Y Tế Hải Dương,DKY
+66,Đại Học Kinh Tế Công Nghiệp Long An,DLA
+67,Đại Học Lạc Hồng,DLH
+68,Đại Học Lao Động – Xã Hội ( Cơ sở phía Nam),DLS
+69,Đại Học Lao Động – Xã Hội ( Cơ sở Sơn Tây ),DLT
+70,Đại Học Lao Động – Xã Hội ( Cơ sở Hà Nội ),DLX
+71,Đại học Công nghệ Miền Đông,DMD
+72,Đại Học Tài Chính Marketing,DMS
+73,Đại học Tài Nguyên và Môi Trường Hà Nội,DMT
+74,Đại Học Hoa Lư,DNB
+75,Đại học Nam Cần Thơ,DNC
+76,Học Viện Khoa Học Quân Sự - Hệ Dân sự,DNH
+77,Đại Học Ngoại Ngữ – Tin Học TPHCM,DNT
+78,Đại Học Đồng Nai,DNU
+79,Đại Học Nội Vụ,DNV
+80,Đại Học Phan Châu Trinh,DPC
+81,Đại Học Dân Lập Phương Đông,DPD
+82,Đại Học Phạm Văn Đồng,DPQ
+83,Đại Học Phan Thiết,DPT
+84,Đại Học Dân Lập Phú Xuân,DPX
+85,Đại Học Phú Yên,DPY
+86,Đại Học Quảng Bình,DQB
+87,Học Viện Kĩ Thuật Quân Sự - Hệ Dân sự,DQH
+88,Đại Học Kinh Doanh và Công Nghệ Hà Nội,DQK
+89,Đại Học Quy Nhơn,DQN
+90,Đại Học Quang Trung,DQT
+91,Đại Học Quảng Nam,DQU
+92,"Đại Học Sân Khấu, Điện Ảnh TPHCM",DSD
+93,Đại Học Công Nghệ Sài Gòn,DSG
+94,Đại học Sư phạm Kỹ thuật - Đại học Đà Nẵng,DSK
+95,Đại Học Phenikaa,DTA
+96,Đại Học Thái Bình,DTB
+97,Đại học Công Nghệ Thông Tin và Truyền Thông – Đại Học Thái Nguyên,DTC
+98,Đại Học Tây Đô,DTD
+99,Đại Học Kinh Tế  & Quản Trị Kinh Doanh – Đại Học Thái Nguyên,DTE
+100,Khoa Ngoại Ngữ – Đại Học Thái Nguyên,DTF
+101,Đại Học Hoa Sen,DTH
+102,Đại Học Kỹ Thuật Công Nghiệp – Đại Học Thái Nguyên,DTK
+103,Đại Học Thăng Long,DTL
+104,ĐH Tài Nguyên môi trường TPHCM,DTM
+105,Đại Học Nông Lâm – Đại Học Thái Nguyên,DTN
+106,Phân Hiệu Đại Học Thái Nguyên Tại Lào Cai,DTP
+107,Khoa Quốc Tế - Đại Học Thái Nguyên,DTQ
+108,Đại Học Sư Phạm – Đại Học Thái Nguyên,DTS
+109,Đại Học Tôn Đức Thắng,DTT
+110,Đại Học Lương Thế Vinh,DTV
+111,Đại Học Y Dược – Đại Học Thái Nguyên,DTY
+112,Đại Học Khoa Học – Đại Học Thái Nguyên,DTZ
+113,Đại Học Việt Bắc,DVB
+114,"Đại Học Văn Hóa, Thể Thao Và Du Lịch Thanh Hóa",DVD
+115,Đại Học Văn Hiến,DVH
+116,Đại Học Dân Lập Văn Lang,DVL
+117,Đại Học Trưng Vương,DVP
+118,Đại Học Trà Vinh,DVT
+119,Đại Học Công Nghệ Vạn Xuân,DVX
+120,Đại Học Yersin Đà Lạt,DYD
+121,Học Viện Quân Y - Hệ Dân sự,DYH
+122,Đại Học Quốc Tế Miền Đông,EIU
+123,Đại Học Hòa Bình,ETU
+124,Đại Học Tài Chính Ngân Hàng Hà Nội,FBU
+125,Đại Học FPT,FPT
+126,Đại Học Giao Thông Vận Tải ( Cơ sở Phía Bắc ),GHA
+127,Đại Học Sư Phạm Nghệ Thuật Trung Ương,GNT
+128,Đại Học Giao Thông Vận Tải ( Cơ sở Phía Nam),GSA
+129,Đại học Công nghệ Giao thông vận tải,GTA
+130,Đại Học Giao Thông Vận Tải TPHCM,GTS
+131,Học Viện Báo Chí – Tuyên Truyền,HBT
+132,Học Viện Chính Trị Công An Nhân Dân,HCA
+133,Đại Học Kỹ Thuật - Hậu Cần Công An Nhân Dân ( Phía Bắc ),HCB
+134,Học Viện Hành Chính Quốc Gia ( phía Bắc ),HCH
+135,Đại Học Kỹ Thuật - Hậu Cần Công An Nhân Dân ( Phía Nam ),HCN
+136,Học Viên Chính Sách và Phát Triển,HCP
+137,Học Viện Hành Chính Quốc Gia (phía Nam),HCS
+138,Đại Học Hồng Đức,HDT
+139,Học Viện Hậu Cần - Hệ Quân sự,HEH
+140,Học Viện Hậu Cần - Hệ Dân sự,HFH
+141,Trường Sĩ Quan Phòng Hóa,HGH
+142,Đại Học Hàng Hải,HHA
+143,Học Viện Hàng Không Việt Nam,HHK
+144,Đại Học Hà Tĩnh,HHT
+145,Đại Học Quốc Tế Hồng Bàng,HIU
+146,Đại Học Hạ Long,HLU
+147,Đại học Thủ Đô Hà Nội,HNM
+148,Học Viện Phụ Nữ Việt Nam,HPN
+149,Học Viện Hải Quân,HQH
+150,Học Viện Ngoại Giao,HQT
+151,Học viện Tòa án,HTA
+152,Học Viện Tài Chính,HTC
+153,Học Viện Thanh Thiếu Niên Việt Nam,HTN
+154,Đại Học Công Nghiệp TPHCM,HUI
+155,Học Viện Âm Nhạc Huế,HVA
+156,Học viện cán bộ TPHCM,HVC
+157,Học Viện Nông Nghiệp Việt Nam,HVN
+158,Học Viện Quản Lý Giáo Dục,HVQ
+159,Học Viện Y Dược Học Cổ Truyền Việt Nam,HYD
+160,Đại học Kỹ Thuật Công Nghệ Cần Thơ,KCC
+161,Đại Học Khoa Học Và Công Nghệ Hà Nội,KCN
+162,Trường Sĩ Quan Không Quân - Hệ Cao đẳng,KGC
+163,Trường Sĩ Quan Không Quân - Hệ Đại học,KGH
+164,Đại Học Kinh Tế Quốc Dân,KHA
+165,Học Viện Kỹ Thuật Mật Mã,KMA
+166,Học Viện Kĩ Thuật Quân Sự - Hệ Quân sự,KQH
+167,Đại Học Kinh Tế TPHCM,KSA
+168,Đại Học Kiến Trúc Hà Nội,KTA
+169,Đại Học Kiến Trúc Đà Nẵng,KTD
+170,Đại Học Kiến Trúc TPHCM,KTS
+171,Trường Sĩ Quan Lục Quân 1 - Đại học Trần Quốc Tuấn,LAH
+172,Trường Sĩ Quan Lục Quân 2 - Đại học Nguyễn Huệ,LBH
+173,Đại học Nguyễn Huệ,LBS
+174,Trường Sĩ Quan Chính Trị - Đại Học Chính Trị,LCH
+175,Trường Sĩ quan Chính trị (hệ dân sự),LCS
+176,Đại Học Công Đoàn,LDA
+177,Đại Học Lâm Nghiệp ( Cơ sở 1 ),LNH
+178,Đại Học Lâm Nghiệp ( Cơ sở 2 ),LNS
+179,Đại Học Luật Hà Nội,LPH
+180,Đại Học Luật TPHCM,LPS
+181,Đại Học Mở TPHCM,MBS
+182,Đại Học Mỹ Thuật Công Nghiệp Á Châu,MCA
+183,Đại Học Mỏ Địa Chất,MDA
+184,Viện Đại Học Mở Hà Nội,MHN
+185,Đại Học Mỹ Thuật Công Nghiệp,MTC
+186,Đại Học Mỹ Thuật Việt Nam,MTH
+187,Đại Học Mỹ Thuật TPHCM,MTS
+188,Đại Học Xây Dựng Miền Tây,MTU
+189,Học Viện Ngân Hàng Phân Viện Bắc Ninh,NHB
+190,Đại Học Hà Nội,NHF
+191,Học Viện Ngân Hàng,NHH
+192,Học Viên Ngân Hàng ( Phân Viện Phú Yên ),NHP
+193,Đại Học Ngân Hàng TPHCM,NHS
+194,Phân hiệu Đại học Nông Lâm TP. HCM tại Gia Lai,NLG
+195,Phân hiệu Đại học Nông Lâm TP. HCM tại Ninh Thuận,NLN
+196,Đại Học Nông Lâm TPHCM,NLS
+197,Học Viện Khoa Học Quân Sự - Hệ Quân sự,NQH
+198,Đại Học Ngoại Thương ( Cơ sở phía Bắc ),NTH
+199,Đại Học Ngoại Thương (phía Nam),NTS
+200,Đại Học Nguyễn Tất Thành,NTT
+201,Đại Học Nguyễn Trãi,NTU
+202,Học Viện Âm Nhạc Quốc Gia Việt Nam,NVH
+203,Nhạc Viện TPHCM,NVS
+204,Trường Sĩ Quan Pháo Binh,PBH
+205,Đại Học Phòng Cháy Chữa Cháy ( Phía Bắc ),PCH
+206,Đại Học Phòng Cháy Chữa Cháy ( Hệ Dân sự Phía Bắc ),PCH1
+207,Đại Học Phòng Cháy Chữa Cháy (phía Nam),PCS
+208,Đại Học Phòng Cháy Chữa Cháy (Hệ Dân sự Phía Nam),PCS1
+209,Học Viện Phòng Không – Không Quân,PKH
+210,Đại Học Dầu Khí Việt Nam,PVU
+211,Khoa Quản Trị Kinh Doanh - ĐH Quốc gia Hà Nội,QHD
+212,Đại Học Kinh Tế – Đại Học Quốc Gia Hà Nội,QHE
+213,Đại Học Ngoại Ngữ – Đại Học Quốc Gia Hà Nội,QHF
+214,Đại Học Công Nghệ – Đại Học Quốc Gia Hà Nội,QHI
+215,Khoa Luật – Đại Học Quốc Gia Hà Nội,QHL
+216,Khoa Quốc Tế – Đại Học Quốc Gia Hà Nội,QHQ
+217,Đại Học Giáo Dục - Đại học Quốc Gia Hà Nội,QHS
+218,Đại Học Khoa Học Tự Nhiên – Đại Học Quốc Gia Hà Nội,QHT
+219,Đại Học Khoa Học Xã Hội và Nhân Văn – Đại Học Quốc Gia Hà Nội,QHX
+220,Khoa Y Dược - Đại học Quốc Gia Hà Nội,QHY
+221,Đại Học Bách Khoa – Đại Học Quốc Gia TPHCM,QSB
+222,Đại Học Công Nghệ Thông Tin – Đại Học Quốc Gia TPHCM,QSC
+223,Đại học Kinh Tế – Luật – Đại Học Quốc Gia TPHCM,QSK
+224,Đại Học Quốc Tế – Đại Học Quốc Gia TPHCM,QSQ
+225,Đại Học Khoa Học Tự Nhiên – Đại Học Quốc Gia TPHCM,QST
+226,Đại Học Khoa Học Xã Hội và Nhân Văn – Đại Học Quốc Gia TPHCM,QSX
+227,Khoa Y - Đại học Quốc Gia TPHCM,QSY
+228,Đại Học Răng – Hàm – Mặt,RHM
+229,Đại Học Quốc Tế RMIT Việt Nam,RMU
+230,Đại học Sao Đỏ,SDU
+231,Đại Học Sài Gòn,SGD
+232,Đại Học Sân Khấu Điện Ảnh,SKD
+233,Đại Học Sư Phạm Kỹ Thuật Hưng Yên,SKH
+234,Đại Học Sư Phạm Kỹ Thuật Nam Định,SKN
+235,Đại Học Sư Phạm Kỹ Thuật Vinh,SKV
+236,Trường Sĩ Quan Công Binh - Hệ Quân sự - Đại học Ngô Quyền,SNH
+237,Đại Học Sư Phạm Hà Nội 2,SP2
+238,Đại Học Đồng Tháp,SPD
+239,Đại Học Sư Phạm Hà Nội,SPH
+240,Đại Học Sư Phạm Kỹ Thuật TPHCM,SPK
+241,Đại Học Sư Phạm TPHCM,SPS
+242,Đại Học Sư Phạm Thể DụcThể Thao TPHCM,STS
+243,Đại Học An Giang,TAG
+244,Đại Học Thái Bình Dương,TBD
+245,Đại Học Cần Thơ,TCT
+246,Trường Sĩ Quan Thông Tin - Hệ Dân Sự - Đại Học Thông Tin Liên Lạc,TCU
+247,Đại Học Thể Dục Thể Thao Bắc Ninh,TDB
+248,Đại học Thành Đô,TDD
+249,Đại Học Sư Phạm Thể Dục Thể Thao Hà Nội,TDH
+250,Đại Học Đà Lạt,TDL
+251,Đại học Thủ Dầu Một,TDM
+252,Đại Học Thể Dục Thể Thao TPHCM,TDS
+253,Đại Học Vinh,TDV
+254,Trường Sĩ  Quan Tăng – Thiết Giáp,TGH
+255,Đại Học Hải Phòng,THP
+256,Đại học Y khoa Tokyo Việt Nam,THU
+257,Đại Học Hùng Vương,THV
+258,Đại học Kiên Giang,TKG
+259,Đại Học Thủy Lợi ( Cơ sở 1 ),TLA
+260,Đại Học Thủy Lợi ( Cơ sở 2 ),TLS
+261,Đại Học Thương Mại,TMA
+262,Đại học Tân Trào,TQU
+263,Đại Học Nha Trang,TSN
+264,Đại Học Tây Bắc,TTB
+265,Đại Học Thể Dục Thể Thao Đà Nẵng,TTD
+266,Đại Học Tiền Giang,TTG
+267,Trường Sĩ Quan Thông Tin - Hệ Quân sự - Đại Học Thông Tin Liên Lạc,TTH
+268,Đại Học Tây Nguyên,TTN
+269,Đại Học Quốc Tế Sài Gòn,TTQ
+270,ĐH Tân Tạo,TTU
+271,Đại Học Y Khoa Phạm Ngọc Thạch,TYS
+272,Đại Học Kinh Tế -Tài Chính TPHCM,UEF
+273,Đại Học Kinh Bắc,UKB
+274,Đại học Khánh Hòa,UKH
+275,Đại Học Việt Đức,VGU
+276,Đại Học Công Nghiệp Việt Hung,VHD
+277,Đại Học Văn Hóa Hà Nội,VHH
+278,Đại Học Văn Hóa TPHCM,VHS
+279,Đại Học Sư Phạm Kỹ Thuật Vĩnh Long,VLU
+280,Trường Sĩ Quan Kĩ Thuật Quân Sự -  Hệ Quân sự - Đại Học Trần Đại Nghĩa,VPH
+281,Đại Học Võ Trường Toản,VTT
+282,Đại Học Công Nghiệp Việt Trì,VUI
+283,Đại Học Xây Dựng Hà Nội,XDA
+284,Đại Học Xây Dựng Miền Trung,XDT
+285,Đại Học Y Dược Cần Thơ,YCT
+286,Đại Học Điều Dưỡng Nam Định,YDD
+287,Đại học Kỹ thuật Y Dược Đà Nẵng,YDN
+288,Đại Học Y Dược TPHCM,YDS
+289,Đại Học Y Hà Nội,YHB
+290,Phân hiệu Đại học Y Hà Nội tại Thanh Hóa,YHT
+291,Đại Học Y Khoa Vinh,YKV
+292,Đại Học Y Dược Hải Phòng,YPB
+293,Học Viện Quân Y - Hệ Quân sự,YQH
+294,Đại Học Y Dược Thái Bình,YTB
+295,Đại Học Y Tế Công Cộng,YTC
+296,Trường Sĩ Quan Công Binh - Hệ Dân sự - Đại học Ngô Quyền,ZCH
+297,Đại Học Văn Hóa – Nghệ Thuật Quân Đội,ZNH
+298,Trường Sĩ Quan Kĩ Thuật Quân Sự - Hệ Dân sự - Đại Học Trần Đại Nghĩa,ZPH
+299,Cao Đẳng An Ninh Nhân Dân 1,AD1
+300,Cao Đẳng An Ninh Nhân Dân 2,AD2
+301,Cao Đẳng Sư Phạm Hà Giang,C05
+302,Cao Đẳng Sư Phạm Cao Bằng,C06
+303,Cao Đẳng Sư Phạm Lào Cai,C08
+304,Cao Đẳng Sư Phạm Tuyên Quang,C09
+305,Cao Đẳng Sư Phạm Lạng Sơn,C10
+306,Cao Đẳng Cộng Đồng Bắc Kạn,C11
+307,Cao Đẳng Sư Phạm Thái Nguyên,C12
+308,Cao Đẳng Sư Phạm Yên Bái,C13
+309,Cao Đẳng Sơn La,C14
+310,Cao Đẳng Sư Phạm Vĩnh Phúc,C16
+311,Cao Đẳng Sư Phạm Quảng Ninh,C17
+312,Cao Đẳng Sư Phạm Ngô Gia Tự Bắc Giang,C18
+313,Cao Đẳng Sư Phạm Bắc Ninh,C19
+314,Cao Đẳng Sư Phạm Hà Tây,C20
+315,Cao Đẳng Hải Dương,C21
+316,Cao Đẳng Sư Phạm Hưng Yên,C22
+317,Cao Đẳng Sư Phạm Hòa Bình,C23
+318,Cao Đẳng Sư Phạm Hà Nam,C24
+319,Cao Đẳng Sư Phạm Nam Định,C25
+320,Cao Đẳng Sư Phạm Thái Bình,C26
+321,Cao Đẳng Sư Phạm Nghệ An,C29
+322,Cao Đẳng Sư Phạm Quảng Trị,C32
+323,Cao Đẳng Sư Phạm Thừa Thiên Huế,C33
+324,Cao Đẳng Sư Phạm Kon Tum,C36
+325,Cao Đẳng Bình Định,C37
+326,Cao Đẳng Sư Phạm Gia Lai,C38
+327,Cao Đẳng Sư Phạm Đăk Lăk,C40
+328,Cao Đẳng Sư Phạm Nha Trang,C41
+329,Cao Đẳng Sư Phạm Đà Lạt,C42
+330,Cao Đẳng Sư Phạm Bình Phước,C43
+331,Cao Đẳng Sư Phạm Ninh Thuận,C45
+332,Cao Đẳng Sư Phạm Tây Ninh,C46
+333,Cao Đẳng Cộng Đồng Bình Thuận,C47
+334,Cao Đẳng Sư Phạm Long An,C49
+335,Cao Đẳng Sư Phạm Bà Rịa – Vũng Tàu,C52
+336,Cao Đẳng Sư Phạm Kiên Giang,C54
+337,Cao Đẳng Cần Thơ,C55
+338,Cao Đẳng Bến Tre,C56
+339,Cao Đẳng Sư Phạm Vĩnh Long,C57
+340,Cao Đẳng Sư Phạm Sóc Trăng,C59
+341,Cao Đẳng Sư Phạm Cà Mau,C61
+342,Cao Đẳng Sư Phạm Điện Biên,C62
+343,Cao Đẳng Bán Công Công Nghệ và Quản Trị Doanh Nghiệp,CBC
+344,Cao Đẳng Bách Khoa Hưng Yên,CBK
+345,Cao Đẳng Công Nghệ Và Kinh Tế Bảo Lộc,CBL
+346,Cao Đẳng Y Tế Bạch Mai,CBM
+347,Cao Đẳng Công Nghệ và Thương Mại Hà Nội,CBT
+348,Cao Đẳng Bách Việt,CBV
+349,Cao Đẳng Y Tế Bình Dương,CBY
+350,Cao Đẳng Công Nghiệp Hóa Chất,CCA
+351,Cao Đẳng Công Nghiệp Thái Nguyên,CCB
+352,Cao Đẳng Công Nghiệp Cẩm Phả,CCC
+353,Cao Đẳng Kỹ Thuật Công Nghiệp,CCE
+354,Cao Đẳng Công Nghiệp Huế,CCH
+355,Cao Đẳng Công Nghiệp In,CCI
+356,Cao Đẳng Kinh Tế Công Nghiệp Hà Nội,CCK
+357,Cao Đẳng Công Nghệ Thủ Đức,CCO
+358,Cao Đẳng Công Nghiệp Tuy Hòa,CCP
+359,Cao Đẳng Kỹ Thuật Công Nghiệp Quảng Ngãi,CCQ
+360,Cao Đẳng Kinh Tế Kỹ Thuật Vinatex TPHCM,CCS
+361,Cao Đẳng Công Nghiệp Việt Đức,CCV
+362,Cao Đẳng Công Nghiệp và Xây Dựng,CCX
+363,Cao Đẳng Công Nghiệp Hưng Yên,CCY
+364,Cao Đẳng Công Nghệ và Kinh Doanh Việt Tiến,CCZ
+365,Cao Đẳng Cảnh Sát Nhân Dân 1,CD1
+366,Cao đẳng Cảnh sát Nhân dân II,CD2
+367,Cao Đẳng Tư Thục Đức Trí,CDA
+368,Cao Đẳng Kinh Tế Kỹ Thuật Điện Biên,CDB
+369,Cao đẳng Công Nghệ Thông Tin TPHCM,CDC
+370,Cao Đẳng Dân Lập Kinh Tế Kỹ Thuật Đông Du Đà Nẵng,CDD
+371,Cao Đẳng Điện Lực TPHCM,CDE
+372,Cao Đẳng Du Lịch Hà Nội,CDH
+373,Cao Đẳng Văn Hóa Nghệ Thuật và Du Lịch Nha Trang,CDK
+374,Cao Đẳng Mỹ Thuật Trang Trí Đồng Nai,CDN
+375,Cao Đẳng Nông Lâm Đông Bắc,CDP
+376,Cao Đẳng Công Kỹ Nghệ Đông Á,CDQ
+377,Cao Đẳng Công Nghệ và Quản Trị Sonadezi,CDS
+378,Cao Đẳng Xây Dựng Công Trình Đô Thị,CDT
+379,Cao Đẳng Truyền Hình,CDT0131
+380,Cao Đẳng Dược Phú Thọ,CDU
+381,Cao Đẳng Viễn Đông,CDV
+382,Cao Đẳng Y Tế Điện Biên,CDY
+383,Cao Đẳng Kinh Tế – Kỹ Thuật Cần Thơ,CEC
+384,Cao Đẳng Công Nghệ Kinh Tế Và Thủy Lợi Miền Trung,CEM
+385,Cao Đẳng Cơ Điện Và Nông Nghiệp Nam Bộ,CEN
+386,Cao Đẳng Đại Việt,CEO
+387,Cao Đẳng Kinh Tế TPHCM,CEP
+388,Cao Đẳng Công Thương TPHCM,CES
+389,Cao Đẳng Kinh Tế-Công Nghệ TPHCM,CET
+390,Cao Đẳng Giao Thông Vận Tải II,CGD
+391,Cao Đẳng Giao Thông Vận Tải Miền Trung,CGN
+392,Cao Đẳng Giao Thông Vận Tải 3,CGS
+393,Cao Đẳng Giao Thông Vận Tải TPHCM,CGT
+394,Cao Đẳng Hàng Hải I,CHH
+395,Cao Đẳng Công Nghệ Và Kinh Tế Hà Nội,CHK
+396,Cao Đẳng Cộng Đồng Hà Nội,CHN
+397,Cao Đẳng Công Nghệ Thông Tin Hữu Nghị Việt Hàn,CHV
+398,Cao Đẳng Y Tế Hưng Yên,CHY
+399,Cao Đẳng Kinh Tế Kỹ Thuật Vĩnh Phúc,CKA
+400,Cao Đẳng Bách Khoa Đà Nẵng,CKB
+401,Cao Đẳng Kỹ Thuật Cao Thắng,CKC
+402,Cao Đẳng Kinh Tế Đối Ngoại,CKD
+403,Cao Đẳng Kinh Tế Kỹ Thuật Kiên Giang,CKG
+404,Cao Đẳng Kinh Tế – Kế Hoạch Đà Nẵng,CKK
+405,Cao Đẳng Cơ Khí Luyện Kim,CKL
+406,Cao Đẳng Kinh Tế Kỹ Thuật Miền Nam,CKM
+407,Cao Đẳng Kinh Tế – Kỹ Thuật Hà Nội,CKN
+408,Cao Đẳng Kinh Tế- Kỹ Thuật Kon Tum,CKO
+409,Cao Đẳng Kỹ Thuật Lý Tự Trọng TPHCM,CKP
+410,Cao Đẳng Kinh Tế – Kỹ Thuật Quảng Nam,CKQ
+411,Cao Đẳng Du Lịch và Thương Mại,CKS
+412,Cao Đẳng Kinh Tế – Tài Chính Thái Nguyên,CKT
+413,Cao Đẳng Kinh Tế – Tài Chính Vĩnh Long,CKV
+414,Cao Đẳng Kinh Tế Kỹ Thuật Lâm Đồng,CKZ
+415,Cao Đẳng Cộng Đồng Lào Cai,CLA
+416,Cao Đẳng Cộng Đồng Lai Châu,CLC
+417,Cao Đẳng Điện Lực Miền Trung,CLD
+418,Cao Đẳng Điện Tử - Điện Lạnh Hà Nội,CLH
+419,Cao Đẳng Lương Thực Thực Phẩm,CLT
+420,Cao Đẳng Lạc Việt,CLV
+421,Cao Đẳng Y Tế Lâm Đồng,CLY
+422,Cao Đẳng Sư Phạm Trung Ương,CM1
+423,Cao Đẳng Sư Phạm TW Nha Trang,CM2
+424,Cao Đẳng Sư Phạm Trung Ương TPHCM,CM3
+425,Cao Đẳng Thương Mại Và Du Lịch Hà Nội,CMD
+426,Cao Đẳng Múa Việt Nam,CMH
+427,Cao Đẳng Tài Nguyên và Môi Trường Miền Trung,CMM
+428,Cao Đẳng Thương Mại,CMS
+429,Cao Đẳng Công Nghệ Và Môi Trường,CMT
+430,Cao Đẳng Y Tế Cà Mau,CMY
+431,Cao Đẳng Hoan Châu,CNA
+432,Cao Đẳng Văn Hóa Nghệ Thuật Thái Bình,CNB
+433,Cao Đẳng Ngoại Ngữ – Công Nghệ Việt Nhật,CNC
+434,Cao Đẳng Công Nghiệp Nam Định,CND
+435,Cao Đẳng Công Nghệ Hà Nội,CNH
+436,Cao Đẳng Nông Nghiệp Nam Bộ,CNN
+437,Cao Đẳng Nông Nghiệp và Phát Triển Nông Thôn Bắc Bộ,CNP
+438,Cao Đẳng Nghệ Thuật Hà Nội,CNT
+439,Cao Đẳng Văn Hóa Nghệ Thuật Việt Bắc,CNV
+440,Cao Đẳng Y Tế Ninh Bình,CNY
+441,Cao Đẳng Công Nghệ Và Kỹ Thuật Ô Tô,COT
+442,Cao Đẳng Phương Đông -Quảng Nam,CPD
+443,Cao Đẳng Kinh Tế Kỹ Thuật TP HCM,CPL
+444,Cao Đẳng Phương Đông – Đà Nẵng,CPN
+445,Cao Đẳng Kinh Tế Kỹ Thuật Phú Thọ,CPP
+446,Cao Đẳng Phát Thanh Truyền Hình II,CPS
+447,Cao Đẳng Phát Thanh Truyền Hình I,CPT
+448,Cao Đẳng Công Nghiệp Phúc Yên,CPY
+449,Cao Đẳng Asean,CSA
+450,Cao Đẳng Thủy Sản,CSB
+451,Cao Đẳng Công Nghiệp Cao Su,CSC
+452,Cao Đẳng Đại Việt Sài Gòn,CSG
+453,Cao Đẳng Cộng Đồng Sóc Trăng,CST
+454,Cao Đẳng Thống Kê,CTE
+455,Cao Đẳng Kinh Tế – Kỹ Thuật Thương Mại,CTH
+456,Cao Đẳng Thủy Lợi Bắc Bộ,CTL
+457,Cao Đẳng Thương Mại và Du Lịch,CTM
+458,Cao Đẳng Thể DụcThể ThaoThanh Hóa,CTO
+459,Cao Đẳng Công Nghiệp Thực Phẩm,CTP
+460,Cao Đẳng Tài Chính Hải Quan,CTS
+461,Cao Đẳng Kinh Tế - Kỹ Thuật Trung Ương,CTW
+462,Cao Đẳng Văn Hóa Nghệ Thuật Tây Bắc,CVB
+463,Cao Đẳng Văn Hóa Nghệ Thuật và Du Lịch Hạ Long,CVD
+464,"Cao đẳng Văn Hóa, Thể Thao Và Du Lịch Nguyễn Du",CVH
+465,Cao Đẳng Văn Hóa Nghệ Thuật Đăk Lăk,CVL
+466,Cao Đẳng Văn Hóa Nghệ Thuật TPHCM,CVN
+467,Cao Đẳng Văn Hóa Nghệ Thuật và Du Lịch Sài Gòn,CVS
+468,Cao Đẳng Công Nghệ Viettronics,CVT
+469,Cao Đẳng Văn Hóa Nghệ Thuật Nghệ An,CVV
+470,Cao Đẳng Kỹ Thuật-Công Nghệ Vạn Xuân,CVX
+471,Cao Đẳng Văn Hóa Nghệ Thuật Du Lịch Yên Bái,CVY
+472,Cao Đẳng Công Nghệ và Kinh Tế Công Nghiệp,CXD
+473,Cao Đẳng Xây Dựng Số 1,CXH
+474,Cao Đẳng Xây Dựng Nam Định,CXN
+475,Cao Đẳng Xây Dựng Số 2,CXS
+476,Cao Đẳng Y Tế Đồng Tháp,CYA
+477,Cao Đẳng Y Tế Bạc Liêu,CYB
+478,Cao Đẳng Y Tế Cần Thơ,CYC
+479,Cao Đẳng Y Tế Đồng Nai,CYD
+480,Cao Đẳng Y Tế Thái Bình,CYE
+481,Cao Đẳng Y Tế Hải Phòng,CYF
+482,Cao Đẳng Y Tế Kiên Giang,CYG
+483,Cao Đẳng Y Tế Hà Nam,CYH
+484,Cao Đẳng Y Tế Thái Nguyên,CYI
+485,Cao Đẳng Y Tế Khánh Hòa,CYK
+486,Cao Đẳng Y Tế Lạng Sơn,CYL
+487,Cao Đẳng Y Tế Hà Đông,CYM
+488,Cao Đẳng Y Tế Hà Tĩnh,CYN
+489,Cao Đẳng Y Tế Phú Thọ,CYP
+490,Cao Đẳng Y Tế Quảng Ninh,CYQ
+491,Cao Đẳng Y Tế Bình Định,CYR
+492,Cao Đẳng Dược Trung Ương,CYS
+493,Cao Đẳng Y Tế Thanh Hóa,CYT
+494,Cao Đẳng Y Tế Quảng Nam,CYU
+495,Cao Đẳng Y Tế Tiền Giang,CYV
+496,Cao Đẳng Y Tế Bình Thuận,CYX
+497,Cao Đẳng Y Tế Huế,CYY
+498,Cao Đẳng Y Tế Hà Nội,CYZ
+499,Cao Đẳng Cộng Đồng Hải Phòng,D03
+500,Cao Đẳng Cộng Đồng Hà Tây,D20
+501,Cao Đẳng Cộng Đồng Đồng Tháp,D50
+502,Cao Đẳng Cộng Đồng Kiên Giang,D54
+503,Cao Đẳng Cộng Đồng Vĩnh Long,D57
+504,Cao Đẳng Cộng Đồng Cà Mau,D61
+505,Cao Đẳng Cộng Đồng Hậu Giang,D64
+506,Khoa Công Nghệ – Đại Học Đà Nẵng,DDC
+507,Khoa Công Nghệ Thông Tin và truyền thông – Đại Học Đà Nẵng,DDI
+508,Cao Đẳng Kinh Tế – Kỹ Thuật – Đại Học Thái Nguyên,DTU
+509,Cao Đẳng Công Nghiệp Quốc Phòng,QPH
+510,Cao Đẳng Y Tế Sơn La,YSL
+511,Cao Đẳng Y Tế Trà Vinh,YTV

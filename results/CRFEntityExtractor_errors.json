@@ -1,0 +1,299 @@
+[
+  {
+    "text": "điểm chuẩn khối A01 năm kia là bao nhiêu",
+    "entities": [
+      {
+        "start": 16,
+        "end": 19,
+        "value": "A01",
+        "entity": "entity_combine"
+      },
+      {
+        "start": 24,
+        "end": 27,
+        "value": "kia",
+        "entity": "entity_year"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 16,
+        "end": 19,
+        "value": "a01",
+        "entity": "entity_combine",
+        "confidence": 0.8988541990758285,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "entity_combine",
+        "start": 16,
+        "end": 19,
+        "extractor": "DIETClassifier",
+        "value": "A01"
+      }
+    ]
+  },
+  {
+    "text": "năm ngoái trường Đại Học Ngoại Ngữ   Đại Học Đà Nẵng lấy bao nhiêu điểm",
+    "entities": [
+      {
+        "start": 4,
+        "end": 9,
+        "value": "ngoái",
+        "entity": "entity_year"
+      },
+      {
+        "start": 17,
+        "end": 52,
+        "value": "Đại Học Ngoại Ngữ – Đại Học Đà Nẵng",
+        "entity": "entity_university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 17,
+        "end": 52,
+        "value": "đại_học ngoại_ngữ – đại_học đà_nẵng",
+        "entity": "entity_university",
+        "confidence": 0.9854052487578708,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "entity_university",
+        "start": 17,
+        "end": 52,
+        "extractor": "DIETClassifier",
+        "value": "Đại Học Ngoại Ngữ   Đại Học Đà Nẵng"
+      }
+    ]
+  },
+  {
+    "text": "Điểm chuẩn Đại Học Văn Hóa  Thể Thao Và Du Lịch Thanh Hóa 2019 khối b",
+    "entities": [
+      {
+        "start": 11,
+        "end": 57,
+        "value": "Đại Học Văn Hóa, Thể Thao Và Du Lịch Thanh Hóa",
+        "entity": "entity_university"
+      },
+      {
+        "start": 58,
+        "end": 62,
+        "value": "2019",
+        "entity": "entity_year"
+      },
+      {
+        "start": 68,
+        "end": 69,
+        "value": "b",
+        "entity": "entity_combine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "những trường nào lấy điểm từ 18 đến 21 ở  tỉnh hà tây",
+    "entities": [
+      {
+        "start": 29,
+        "end": 31,
+        "value": "18",
+        "entity": "entity_score"
+      },
+      {
+        "start": 36,
+        "end": 38,
+        "value": "21",
+        "entity": "entity_score"
+      },
+      {
+        "start": 47,
+        "end": 53,
+        "value": "hà tây",
+        "entity": "entity_province"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 29,
+        "end": 31,
+        "value": "18",
+        "entity": "entity_score",
+        "confidence": 0.9359777203620753,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 36,
+        "end": 38,
+        "value": "21",
+        "entity": "entity_score",
+        "confidence": 0.9377612717594465,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "entity_score",
+        "start": 29,
+        "end": 31,
+        "extractor": "DIETClassifier",
+        "value": "18"
+      },
+      {
+        "entity": "entity_score",
+        "start": 36,
+        "end": 38,
+        "extractor": "DIETClassifier",
+        "value": "21"
+      }
+    ]
+  },
+  {
+    "text": "Những trường nào đào tạo ngànhcông nghệ thông tin",
+    "entities": [
+      {
+        "start": 30,
+        "end": 49,
+        "value": "công nghệ thông tin",
+        "entity": "entity_major"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "nên học cơ kĩ thuật ở trường nào",
+    "entities": [
+      {
+        "start": 8,
+        "end": 19,
+        "value": "cơ kĩ thuật",
+        "entity": "entity_major"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "địa chỉ trường đại học giao thôngđại học giao thông vận tải là gì ",
+    "entities": [
+      {
+        "start": 15,
+        "end": 33,
+        "value": "đại học giao thông",
+        "entity": "entity_university"
+      },
+      {
+        "start": 33,
+        "end": 59,
+        "value": "đại học giao thông vận tải",
+        "entity": "entity_university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "trường học viện biên phòng có những ngành nào",
+    "entities": [
+      {
+        "start": 7,
+        "end": 26,
+        "value": "học viện biên phòng",
+        "entity": "entity_university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "trường học viện cảnh sát nhân dân có đào tạo ngành công nghệ kỹ thuật xây dựng không",
+    "entities": [
+      {
+        "start": 7,
+        "end": 33,
+        "value": "học viện cảnh sát nhân dân",
+        "entity": "entity_university"
+      },
+      {
+        "start": 51,
+        "end": 78,
+        "value": "công nghệ kỹ thuật xây dựng",
+        "entity": "entity_major"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 51,
+        "end": 78,
+        "value": "công_nghệ_kỹ_thuật xây_dựng",
+        "entity": "entity_major",
+        "confidence": 0.9188267890955208,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "entity_major",
+        "start": 51,
+        "end": 78,
+        "extractor": "DIETClassifier",
+        "value": "công nghệ kỹ thuật xây dựng"
+      }
+    ]
+  },
+  {
+    "text": "Đại học giao thông vận tải có những ngành nào",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "Đại học giao thông",
+        "entity": "entity_university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 26,
+        "value": "đại_học giao_thông vận_tải",
+        "entity": "entity_university",
+        "confidence": 0.6731202455908962,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "entity_university",
+        "start": 0,
+        "end": 18,
+        "extractor": "DIETClassifier",
+        "value": "Đại học giao thông"
+      }
+    ]
+  },
+  {
+    "text": "chỉ tiêu tuyển sinh ngành phân tích đầu tư tài chính trường đại học thương mại là bao nhiêu",
+    "entities": [
+      {
+        "start": 26,
+        "end": 52,
+        "value": "phân tích đầu tư tài chính",
+        "entity": "entity_major"
+      },
+      {
+        "start": 60,
+        "end": 78,
+        "value": "đại học thương mại",
+        "entity": "entity_university"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 60,
+        "end": 78,
+        "value": "đại_học thương_mại",
+        "entity": "entity_university",
+        "confidence": 0.859622950702806,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "entity_university",
+        "start": 60,
+        "end": 78,
+        "extractor": "DIETClassifier",
+        "value": "đại học thương mại"
+      }
+    ]
+  }
+]

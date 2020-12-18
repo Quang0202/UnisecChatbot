@@ -1,0 +1,68 @@
+{
+  "entity_score": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 13
+  },
+  "entity_university_id": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10
+  },
+  "entity_macro_region": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10
+  },
+  "entity_province": {
+    "precision": 1.0,
+    "recall": 0.9777777777777777,
+    "f1-score": 0.9887640449438202,
+    "support": 45
+  },
+  "entity_major": {
+    "precision": 1.0,
+    "recall": 0.9506172839506173,
+    "f1-score": 0.9746835443037974,
+    "support": 162
+  },
+  "entity_year": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1-score": 0.8571428571428571,
+    "support": 12
+  },
+  "entity_university": {
+    "precision": 0.99644128113879,
+    "recall": 0.9395973154362416,
+    "f1-score": 0.9671848013816926,
+    "support": 298
+  },
+  "entity_combine": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8
+  },
+  "micro avg": {
+    "precision": 0.998109640831758,
+    "recall": 0.946236559139785,
+    "f1-score": 0.9714811407543699,
+    "support": 558
+  },
+  "macro avg": {
+    "precision": 0.9995551601423487,
+    "recall": 0.9522490471455796,
+    "f1-score": 0.9734719059715209,
+    "support": 558
+  },
+  "weighted avg": {
+    "precision": 0.9980994655544076,
+    "recall": 0.946236559139785,
+    "f1-score": 0.9711467765181823,
+    "support": 558
+  }
+}

@@ -1,0 +1,148 @@
+session_config:
+  session_expiration_time: 0
+  carry_over_slots_to_new_session: true
+intents:
+- intent_welcome
+- intent_admission_score
+- intent_find_university
+- intent_combine
+- intent_university_id
+- intent_university_address
+- intent_university_rank
+- intent_subjects
+- intent_salary
+- intent_job
+- intent_major_info
+- intent_university_info
+- intent_major_list
+- intent_admission
+- intent_priority_point
+- inform
+- find_major
+entities:
+- entity_macro_region
+- entity_province
+- entity_major
+- entity_score
+- entity_combine
+- entity_university
+- entity_subject
+- entity_year
+- entity_gender
+- entity_university_id
+slots:
+  entity_combine:
+    type: list
+  entity_combine_validated:
+    type: list
+  entity_gender:
+    type: list
+  entity_gender_validated:
+    type: list
+  entity_macro_region:
+    type: list
+  entity_macro_region_validated:
+    type: list
+  entity_major:
+    type: list
+  entity_major_validated:
+    type: list
+  entity_province:
+    type: list
+  entity_province_validated:
+    type: list
+  entity_score:
+    type: list
+  entity_score_validated:
+    type: list
+  entity_subject:
+    type: list
+  entity_subject_validated:
+    type: list
+  entity_university:
+    type: list
+  entity_university_id:
+    type: list
+  entity_university_id_validated:
+    type: list
+  entity_university_validated:
+    type: list
+  entity_year:
+    type: list
+  entity_year_validated:
+    type: list
+  concern:
+    type: unfeaturized
+  criterion:
+    type: unfeaturized
+  skill:
+    type: unfeaturized
+  workspace:
+    type: unfeaturized
+responses:
+  utter_welcome:
+  - text: xin chào, bạn cần giúp gì nào?
+  utter_ask_entity_university:
+  - text: Bạn muốn hỏi trường nào?
+  utter_ask_entity_major:
+  - text: Bạn muốn hỏi ngành nào?
+  utter_ask_entity_macro_region:
+  - custom:
+      data:
+        button:
+        - miền Bắc
+        - miền Trung
+        - miền Nam
+    text: Bạn muốn học ở Miền Bắc, Miền Trung hay Miền Nam?
+  action_default_fallback:
+  - text: Tôi chưa thể giúp bạn việc này nhưng tôi vẫn đang cố gắng để hoàn thiện
+      hơn.
+  utter_ask_entity_province:
+  - text: Bạn muốn hỏi tỉnh nào?
+  utter_ask_entity_combine:
+  - text: Khối thi của bạn là gì?
+  utter_ask_entity_score:
+  - text: bạn dự kiến được bao nhiêu điểm?
+  utter_ask_concern:
+    - buttons:
+        - payload: '/inform{"concern": "công nghệ 4.0"}'
+          title: công nghệ 4.0
+        - payload: '/inform{"concern": "khởi nghiệp"}'
+          title: start up
+        - payload: '/inform{"concern": "báo chí-truyền thông-truyền hình"}'
+          title: báo chí-truyền thông-truyền hình
+        - payload: '/inform{"concern": "kinh tế,tài chính"}'
+          title: kinh tế,tài chính
+      text: Bạn quan tâm đến lĩnh vực nào ?
+  utter_ask_skill:
+    - text: Bạn nghĩ mình có khả năng ở lĩnh vực nào hoặc khi đi học bạn khá và giỏi
+        những môn nào ?
+  utter_ask_criterion:
+    - text: Hãy kể cho mình một vài ưu điểm của bạn
+  utter_ask_workspace:
+    - text: Bạn mơ ước được làm việc ở đâu ?
+actions:
+- utter_welcome
+- action_welcome
+- utter_ask_entity_major
+- utter_ask_entity_combine
+- utter_ask_entity_university
+- utter_ask_entity_macro_region
+- utter_ask_entity_province
+- utter_ask_entity_score
+- action_default_fallback
+forms:
+- form_find_university
+- form_admission_score
+- form_combine
+- form_university_address
+- form_university_id
+- form_university_rank
+- form_subjects
+- form_salary
+- form_job
+- form_major_info
+- form_major_list
+- form_admission
+- form_priority_point
+- form_find_major

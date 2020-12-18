@@ -1,0 +1,170 @@
+[
+  {
+    "text": "địa chỉ trường đại học giao thôngđại học giao thông vận tải là gì ",
+    "intent": "intent_university_address",
+    "intent_prediction": {
+      "name": "intent_find_university",
+      "confidence": 0.1753424982372252
+    }
+  },
+  {
+    "text": "trường đại học bách khoa đại học quốc gia hồ chí minh ở đâu",
+    "intent": "intent_university_address",
+    "intent_prediction": {
+      "name": "intent_admission_score",
+      "confidence": 0.1664873094210658
+    }
+  },
+  {
+    "text": "thứ hạng của trường đại học công nghệ",
+    "intent": "intent_university_rank",
+    "intent_prediction": {
+      "name": "intent_admission_score",
+      "confidence": 0.1617250178183671
+    }
+  },
+  {
+    "text": "ngành luật cần học gì",
+    "intent": "intent_subjects",
+    "intent_prediction": {
+      "name": "intent_major_info",
+      "confidence": 0.3062556662726253
+    }
+  },
+  {
+    "text": "giới thiệu ngành nghệ thuật nghe nhìn",
+    "intent": "intent_major_info",
+    "intent_prediction": {
+      "name": "intent_subjects",
+      "confidence": 0.2229950307866472
+    }
+  },
+  {
+    "text": "học trường Đại Học Công Nghiệp Thực Phẩm TP HCM có tốt không",
+    "intent": "intent_university_info",
+    "intent_prediction": {
+      "name": "intent_major_list",
+      "confidence": 0.16927083802714976
+    }
+  },
+  {
+    "text": "Đại học Thành Đông có những khoa nào ",
+    "intent": "intent_major_list",
+    "intent_prediction": {
+      "name": "intent_find_university",
+      "confidence": 0.39450129530723604
+    }
+  },
+  {
+    "text": "trường đại học nam cần thơ lấy bao nhiêu sinh viên",
+    "intent": "intent_admission",
+    "intent_prediction": {
+      "name": "intent_admission_score",
+      "confidence": 0.17337403665421344
+    }
+  },
+  {
+    "text": "ngành địa chất học có những môn nào",
+    "intent": "intent_subjects",
+    "intent_prediction": {
+      "name": "intent_major_list",
+      "confidence": 0.3339837673562811
+    }
+  },
+  {
+    "text": "Thi ngành điện cần học tổ hợp môn nào",
+    "intent": "intent_combine",
+    "intent_prediction": {
+      "name": "intent_subjects",
+      "confidence": 0.2058069467932381
+    }
+  },
+  {
+    "text": "trường học viện biên phòng có những ngành nào",
+    "intent": "intent_major_list",
+    "intent_prediction": {
+      "name": "intent_find_university",
+      "confidence": 0.4022826333361493
+    }
+  },
+  {
+    "text": "trường nào có ngành cơ khí",
+    "intent": "intent_find_university",
+    "intent_prediction": {
+      "name": "intent_major_list",
+      "confidence": 0.5149264704562772
+    }
+  },
+  {
+    "text": "trường nào đào tạo ngành luật",
+    "intent": "intent_find_university",
+    "intent_prediction": {
+      "name": "intent_major_list",
+      "confidence": 0.3979740366757895
+    }
+  },
+  {
+    "text": "trường đại học huế xếp thứ hạng bao nhiêu",
+    "intent": "intent_university_rank",
+    "intent_prediction": {
+      "name": "intent_admission",
+      "confidence": 0.26643415403041115
+    }
+  },
+  {
+    "text": "thông tin ngành nhật bản học",
+    "intent": "intent_major_info",
+    "intent_prediction": {
+      "name": "intent_subjects",
+      "confidence": 0.1968186692292933
+    }
+  },
+  {
+    "text": "xin chào",
+    "intent": "intent_welcome",
+    "intent_prediction": {
+      "name": "intent_find_university",
+      "confidence": 0.3933226818533276
+    }
+  },
+  {
+    "text": "Ở Hà Nội có những trường đại học nào",
+    "intent": "intent_find_university",
+    "intent_prediction": {
+      "name": "intent_major_list",
+      "confidence": 0.4500612885748989
+    }
+  },
+  {
+    "text": "có những trường nào đào tạo công nghệ sinh học",
+    "intent": "intent_find_university",
+    "intent_prediction": {
+      "name": "intent_major_list",
+      "confidence": 0.47163144690206454
+    }
+  },
+  {
+    "text": "trường đại học công nghiệp Hà Nội tuyển sinh khối nào",
+    "intent": "intent_combine",
+    "intent_prediction": {
+      "name": "intent_find_university",
+      "confidence": 0.2574589853520507
+    }
+  },
+  {
+    "text": "tra cứu mã trường đại học công nghiệp vinh",
+    "intent": "intent_university_id",
+    "intent_prediction": {
+      "name": "intent_admission_score",
+      "confidence": 0.2516745239715606
+    }
+  },
+  {
+    "text": "trường đại học giao thông vận tải xếp hạng bao nhiêu ",
+    "intent": "intent_university_rank",
+    "intent_prediction": {
+      "name": "intent_admission_score",
+      "confidence": 0.26854798288692394
+    }
+  }
+]
