@@ -1,6 +1,6 @@
 language: vi
 pipeline:
-- name: ViCustomComponent
+#- name: ViCustomComponent
 - name: SpacyNLP
   model: "vi_spacy_model"
   case_sensitive: false

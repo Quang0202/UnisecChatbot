@@ -8,7 +8,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn import preprocessing,metrics,linear_model,svm,naive_bayes,ensemble
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.externals import joblib
+import joblib
 from pyvi import ViTokenizer
 import heapq
 client = pymongo.MongoClient("localhost", 27017)
