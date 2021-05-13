@@ -2,7 +2,9 @@
 * intent_welcome
 - utter_welcome
 - action_welcome
-
+## story_goodbye
+* intent_goodbye
+- utter_goodbye
 ## story_find_university
 * intent_find_university
 - form_find_university

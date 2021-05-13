@@ -154,7 +154,7 @@ class UnisecValidator:
             vec = self.uniVectorizer.transform([i])
             cos = cosine_similarity(self.uniModel, vec)
             index = cos.argmax()
-            # print((cos[index][0],i,self.uniDataframe.iloc[index,1]))
+            #print((cos[index][0],i,self.uniDataframe.iloc[index,1]))
             if cos[index][0] > ret[0]:
                 ret = (cos[index][0],self.uniDataframe.iloc[index,1],self.uniDataframe.iloc[index,2])
         return ret
@@ -190,5 +190,5 @@ class UnisecValidator:
         
         
 # UnisecValidator.getInstance() # load & train data immediately after import
-test = "học viện công nghệ bưu chính viễn thông phía Bắc"
+test = "đại học công nghệ đại học quốc gia hà nội"
 print(UnisecValidator.getInstance().validate_entity_university(test))

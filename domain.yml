@@ -3,6 +3,7 @@ session_config:
   carry_over_slots_to_new_session: true
 intents:
 - intent_welcome
+- intent_goodbye
 - intent_admission_score
 - intent_find_university
 - intent_combine
@@ -82,6 +83,8 @@ slots:
 responses:
   utter_welcome:
   - text: xin chào, bạn cần giúp gì nào?
+  utter_goodbye:
+  - text: tạm biệt, mong những điều trên giúp ích được cho bạn!
   utter_ask_entity_university:
   - text: Bạn muốn hỏi trường nào?
   utter_ask_entity_major:

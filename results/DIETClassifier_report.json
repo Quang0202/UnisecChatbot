@@ -1,68 +1,78 @@
 {
-  "entity_score": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 13
+  "entity_university": {
+    "precision": 0.9947643979057592,
+    "recall": 0.979381443298969,
+    "f1-score": 0.987012987012987,
+    "support": 388,
+    "confused_with": {}
   },
   "entity_university_id": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 10
-  },
-  "entity_macro_region": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 10
-  },
-  "entity_province": {
-    "precision": 1.0,
-    "recall": 0.9777777777777777,
-    "f1-score": 0.9887640449438202,
-    "support": 45
+    "support": 10,
+    "confused_with": {}
   },
   "entity_major": {
-    "precision": 0.9935483870967742,
-    "recall": 0.9506172839506173,
-    "f1-score": 0.971608832807571,
-    "support": 162
-  },
-  "entity_year": {
-    "precision": 1.0,
-    "recall": 0.75,
-    "f1-score": 0.8571428571428571,
-    "support": 12
-  },
-  "entity_university": {
-    "precision": 1.0,
-    "recall": 0.9395973154362416,
-    "f1-score": 0.9688581314878892,
-    "support": 298
+    "precision": 0.9950980392156863,
+    "recall": 0.9575471698113207,
+    "f1-score": 0.9759615384615384,
+    "support": 212,
+    "confused_with": {
+      "entity_university": 2
+    }
   },
   "entity_combine": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 8
+    "support": 15,
+    "confused_with": {}
+  },
+  "entity_macro_region": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 12,
+    "confused_with": {}
+  },
+  "entity_year": {
+    "precision": 1.0,
+    "recall": 0.8461538461538461,
+    "f1-score": 0.9166666666666666,
+    "support": 26,
+    "confused_with": {}
+  },
+  "entity_score": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 19,
+    "confused_with": {}
+  },
+  "entity_province": {
+    "precision": 1.0,
+    "recall": 0.9824561403508771,
+    "f1-score": 0.9911504424778761,
+    "support": 57,
+    "confused_with": {}
   },
   "micro avg": {
-    "precision": 0.998109640831758,
-    "recall": 0.946236559139785,
-    "f1-score": 0.9714811407543699,
-    "support": 558
+    "precision": 0.9958333333333333,
+    "recall": 0.9702300405953992,
+    "f1-score": 0.9828649760109665,
+    "support": 739
   },
   "macro avg": {
-    "precision": 0.9991935483870968,
-    "recall": 0.9522490471455796,
-    "f1-score": 0.9732967332977671,
-    "support": 558
+    "precision": 0.9987328046401807,
+    "recall": 0.9706923249518766,
+    "f1-score": 0.9838489543273835,
+    "support": 739
   },
   "weighted avg": {
-    "precision": 0.998126951092612,
-    "recall": 0.946236559139785,
-    "f1-score": 0.9711477605849529,
-    "support": 558
+    "precision": 0.9958448859284981,
+    "recall": 0.9702300405953992,
+    "f1-score": 0.9826708980642185,
+    "support": 739
   }
 }

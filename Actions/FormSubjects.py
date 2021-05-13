@@ -48,7 +48,7 @@ class FormSubjects(UnisecForm):
          res = []
          res.append(['môn học'])
          try:
-            dt = db.major_info.find_one({'id': re.compile('^' + entity_major_validated + '$', re.IGNORECASE)})
+            dt = db.major_info.find_one({'major_id':entity_major_validated})
             dt = dt['subjects']
             for i in dt:
                 res.append([i])

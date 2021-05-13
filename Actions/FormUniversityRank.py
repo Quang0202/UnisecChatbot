@@ -33,7 +33,12 @@ class FormUniversityRank(UnisecForm):
       
       if university_validated != None:
          ret = "Trường " + university
-         dt = db.rank_uni.find_one({'id': re.compile('^' + university_validated + '$', re.IGNORECASE)})
+         regex=re.compile("^"+university+"$", re.I)
+         regex2=re.compile(r'helo', re.I)
+         print(regex)
+         print(regex2)
+         dt = db.rank_uni.find_one({'university': {'$regex':university,'$options' :'i'}})
+         print(dt)
          if dt != None:
              ret += " xếp thứ " + str(dt['rank']) + " theo xếp hạng của unirank"
          dt2 = db.rank_metric.find_one({'id': re.compile('^' + university_validated + '$', re.IGNORECASE)})

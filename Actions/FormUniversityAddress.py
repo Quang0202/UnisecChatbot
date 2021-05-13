@@ -31,7 +31,7 @@ class FormUniversityAddress(UnisecForm):
          university_validated =  None
       data = []
       if university_validated != None:
-        data = db.universities.find({'abbreviation': re.compile('^' + university_validated + '$', re.IGNORECASE)})
+        data = db.universities.find({'abbreviation': university_validated})
       ret = []
       for entry in data:
           try:

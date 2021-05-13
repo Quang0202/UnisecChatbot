@@ -68,15 +68,17 @@ class FormCombine(UnisecForm):
       mes = "Ngành "
       query = {}
       if major_validated != None:
-          query['major_group_id'] = re.compile('^' + major_validated + '$', re.IGNORECASE)
-          mes += major
+         major_validated_int=int(major_validated)
+         query['majors_id'] = {'$in': [major_validated_int, major_validated]}
+         mes += major
 
       if university_validated != None:
-          query['university_id'] =  re.compile('^' + university_validated + '$', re.IGNORECASE)
-          mes += " trường " + university
+         query['university_id'] = university_validated
+         mes += " trường " + university
       mes += ' xét tuyển khối '
-      query['year'] = '2019'
-      data = db.admission_scores.find(query)
+      query['year'] = '2017'
+      print(query)
+      data = db.addmission_scores.find(query)
       ret = []
       com = ""
       for entry in data:

@@ -2,12 +2,11 @@ import logging
 import typing
 from typing import Dict, Text, Any, List, Union, Optional, Tuple
 from rasa_sdk import utils
-from rasa_sdk.events import SlotSet, Form, EventType, ActiveLoop
+from rasa_sdk.events import SlotSet, Form, EventType
 from rasa_sdk.interfaces import Action, ActionExecutionRejection
 from .UnisecValidator import UnisecValidator
 from .UnisecLogger import UnisecLogger
 logger = logging.getLogger(__name__)
-LOOP_INTERRUPTED_KEY = "is_interrupted"
 if typing.TYPE_CHECKING:
     from rasa_sdk import Tracker
     from rasa_sdk.executor import CollectingDispatcher
@@ -25,7 +24,6 @@ class UnisecForm(Action):
 
     def required_slots(self, tracker: "Tracker") -> List[Text]:
         """A list of required slots that the form has to fill.
-
         Use `tracker` to request different list of slots
         depending on the state of the dialogue
         """
@@ -40,7 +38,6 @@ class UnisecForm(Action):
         not_intent: Optional[Union[Text, List[Text]]] = None,
     ) -> Dict[Text, Any]:
         """A dictionary for slot mapping to extract slot value.
-
         From:
         - an extracted entity
         - conditioned on
@@ -69,14 +66,12 @@ class UnisecForm(Action):
         not_intent: Optional[Union[Text, List[Text]]] = None,
     ) -> Dict[Text, Any]:
         """A dictionary for slot mapping to extract slot value.
-
         From:
         - trigger_intent: value pair
         - conditioned on
             - intent if it is not None
             - not_intent if it is not None,
                 meaning user intent should not be this intent
-
         Only used on form activation.
         """
 
@@ -96,7 +91,6 @@ class UnisecForm(Action):
         not_intent: Optional[Union[Text, List[Text]]] = None,
     ) -> Dict[Text, Any]:
         """A dictionary for slot mapping to extract slot value.
-
         From:
         - intent: value pair
         - conditioned on
@@ -120,7 +114,6 @@ class UnisecForm(Action):
         not_intent: Optional[Union[Text, List[Text]]] = None,
     ) -> Dict[Text, Any]:
         """A dictionary for slot mapping to extract slot value.
-
         From:
         - a whole message
         - conditioned on
@@ -136,14 +129,12 @@ class UnisecForm(Action):
     # noinspection PyMethodMayBeStatic
     def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict[Text, Any]]]]:
         """A dictionary to map required slots.
-
         Options:
         - an extracted entity
         - intent: value pairs
         - trigger_intent: value pairs
         - a whole message
         or a list of them, where the first match will be picked
-
         Empty dict is converted to a mapping of
         the slot to the extracted entity with the same name
         """
@@ -152,7 +143,6 @@ class UnisecForm(Action):
 
     def get_mappings_for_slot(self, slot_to_fill: Text) -> List[Dict[Text, Any]]:
         """Get mappings for requested slot.
-
         If None, map requested slot to an entity with the same name
         """
 
@@ -294,23 +284,25 @@ class UnisecForm(Action):
         return {}
 
     async def validate_slots(
-            self,
-            slot_dict: Dict[Text, Any],
-            dispatcher: "CollectingDispatcher",
-            tracker: "Tracker",
-            domain: "DomainDict",
+        self,
+        slot_dict: Dict[Text, Any],
+        dispatcher: "CollectingDispatcher",
+        tracker: "Tracker",
+        domain: Dict[Text, Any],
     ) -> List[EventType]:
         """Validate slots using helper validation functions.
-
         Call validate_{slot} function for each slot, value pair to be validated.
         If this function is not implemented, set the slot to the value.
         """
 
         for slot, value in list(slot_dict.items()):
             validate_func = getattr(self, f"validate_{slot}", lambda *x: {slot: value})
-            validation_output = await utils.call_potential_coroutine(
-                validate_func(value, dispatcher, tracker, domain)
-            )
+            if utils.is_coroutine_action(validate_func):
+                validation_output = await validate_func(
+                    value, dispatcher, tracker, domain
+                )
+            else:
+                validation_output = validate_func(value, dispatcher, tracker, domain)
             if not isinstance(validation_output, dict):
                 logger.warning(
                     "Returning values in helper validation methods is deprecated. "
@@ -330,7 +322,6 @@ class UnisecForm(Action):
         domain: Dict[Text, Any],
     ) -> List[EventType]:
         """Extract and validate value of requested slot.
-
         If nothing was extracted reject execution of the form action.
         Subclass this method to add custom validation and rejection logic
         """
@@ -527,7 +518,6 @@ class UnisecForm(Action):
         domain: Dict[Text, Any],
     ) -> List[EventType]:
         """Activate form if the form is called for the first time.
-
         If activating, validate any required slots that were filled before
         form activation and return `Form` event with the name of the form, as well
         as any `SlotSet` events from validation of pre-filled slots.
@@ -565,30 +555,29 @@ class UnisecForm(Action):
             return events
 
     async def _validate_if_required(
-            self,
-            dispatcher: "CollectingDispatcher",
-            tracker: "Tracker",
-            domain: "DomainDict",
+        self,
+        dispatcher: "CollectingDispatcher",
+        tracker: "Tracker",
+        domain: Dict[Text, Any],
     ) -> List[EventType]:
         """Return a list of events from `self.validate(...)`
-        if validation is required:
-        - the form is active
-        - the form is called after `action_listen`
-        - form validation was not cancelled
+            if validation is required:
+            - the form is active
+            - the form is called after `action_listen`
+            - form validation was not cancelled
         """
-        # no active_loop means that it is called during activation
-        need_validation = not tracker.active_loop or (
-                tracker.latest_action_name == "action_listen"
-                and not tracker.active_loop.get(LOOP_INTERRUPTED_KEY, False)
-        )
-        if need_validation:
+        if tracker.latest_action_name == "action_listen" and tracker.active_form.get(
+            "validate", True
+        ):
             logger.debug(f"Validating user input '{tracker.latest_message}'")
-            return await utils.call_potential_coroutine(
-                self.validate(dispatcher, tracker, domain)
-            )
+            if utils.is_coroutine_action(self.validate):
+                return await self.validate(dispatcher, tracker, domain)
+            else:
+                return self.validate(dispatcher, tracker, domain)
         else:
             logger.debug("Skipping validation")
             return []
+
     @staticmethod
     def _should_request_slot(tracker: "Tracker", slot_name: Text) -> bool:
         """Check whether form action should request given slot"""
@@ -596,13 +585,12 @@ class UnisecForm(Action):
         return tracker.get_slot(slot_name) is None
 
     async def run(
-            self,
-            dispatcher: "CollectingDispatcher",
-            tracker: "Tracker",
-            domain: "DomainDict",
+        self,
+        dispatcher: "CollectingDispatcher",
+        tracker: "Tracker",
+        domain: Dict[Text, Any],
     ) -> List[EventType]:
         """Execute the side effects of this form.
-
         Steps:
         - activate if needed
         - validate user input if needed
@@ -616,8 +604,17 @@ class UnisecForm(Action):
         events = await self._activate_if_required(dispatcher, tracker, domain)
         # validate user input
         events.extend(await self._validate_if_required(dispatcher, tracker, domain))
+        # vukihai add slot validate
+        events.extend(await self.unisec_validate_slots(dispatcher, tracker, domain))
         # check that the form wasn't deactivated in validation
-        if ActiveLoop(None) not in events:
+        if Form(None) not in events:
+
+            #vukihai add before fill slot
+            if utils.is_coroutine_action(self.submit):
+                events.extend(await self.before_slot_fill(dispatcher, tracker, domain))
+            else:
+                events.extend(self.before_slot_fill(dispatcher, tracker, domain))
+
 
             # create temp tracker with populated slots from `validate` method
             temp_tracker = tracker.copy()
@@ -634,12 +631,15 @@ class UnisecForm(Action):
                 # there is nothing more to request, so we can submit
                 self._log_form_slots(temp_tracker)
                 logger.debug(f"Submitting the form '{self.name()}'")
-                events += await utils.call_potential_coroutine(
-                    self.submit(dispatcher, temp_tracker, domain)
-                )
-
+                if utils.is_coroutine_action(self.submit):
+                    events.extend(await self.submit(dispatcher, temp_tracker, domain))
+                else:
+                    events.extend(self.submit(dispatcher, temp_tracker, domain))
                 # deactivate the form after submission
-                events += await utils.call_potential_coroutine(self.deactivate())
+                if utils.is_coroutine_action(self.deactivate):
+                    events.extend(await self.deactivate())  # type: ignore
+                else:
+                    events.extend(self.deactivate())
 
         return events
 

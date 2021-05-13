@@ -17,7 +17,15 @@
 - hi
 - hello there
 - a good day
-
+## intent:intent_goodbye
+- tạm biệt
+- buye
+- bye bye
+- thank
+- cảm ơn
+- sea you again
+- thế nhé
+- bye
 ## intent:intent_admission_score
 - ngành [công nghệ thông tin](entity_major) lấy điểm chuẩn là bao nhiêu
 - điểm chuẩn [đại học lạc hồng](entity_university) ra sao
@@ -154,6 +162,8 @@
 - mã trường của trường [đại học công nghiệp Hà Nội](entity_university) là gì
 - [Đại học Cần thơ](entity_university) có mã trường là gì
 - tra cứu mã trường [đại học công nghiệp vinh](entity_university)
+- mã của trường [học viện hậu cần](entity_university) là gì
+- mã của trường [kinh tế quốc dân](entity_university)là gì
 - mã trường của trường [dhdd](entity_university) là gì
 - trường nào có mã là [QHI](entity_university_id)
 - trường nào có mã trường là [DCV](entity_university_id)
@@ -304,7 +314,10 @@
 - ngành nào phù hợp với em
 - em cần tìm ngành học với khả năng
 - em chưa biết học ngành nào
-
+- tư vấn
+- chọn ngành như nào giờ
+- em không biết nên chọn ngành nào
+- em không biết ngành nào phù hợp
 ## intent:inform
 - em muốn hỏi trường [Đại học kinh tế quốc dân](entity_university)
 - dạ trường [đại học kiến trúc](entity_university)

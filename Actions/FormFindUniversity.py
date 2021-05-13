@@ -21,7 +21,7 @@ class FormFindUniveristy(UnisecForm):
    #        - intent: value pairs
    #        - a whole message
    #        or a list of them, where a first match will be picked"""
-   #
+   
    #    return {
    #       "entity_macro_region": [
    #          self.from_entity(entity="entity_macro_region", intent=["intent_find_university", "inform"])],
@@ -47,8 +47,8 @@ class FormFindUniveristy(UnisecForm):
          return ['entity_macro_region']
       if tracker.get_slot('entity_score') == None:
          return ['entity_score']
-      # if tracker.get_slot('entity_combine') == None:
-      #    return ['entity_combine']
+      if tracker.get_slot('entity_province') == None:
+         return ['entity_province']
       if tracker.get_slot('entity_major') == None:
          return ['entity_major']
       return []
@@ -111,10 +111,29 @@ class FormFindUniveristy(UnisecForm):
          return (mes, list)
       #gen query
       query = {}
+      # dataScore=db.universities.find({})
+      # query={}
+      # for data in dataScore:
+      #    try:
+      #       dataMajor=db.addmission_scores.find({"university_id":data['abbreviation']})
+      #       for datamajor in dataMajor:
+      #          if datamajor['year']=="2018" or datamajor['year']=="2019" :
+      #             intId=int(datamajor['majors_id'])
+      #             strId=str(datamajor['majors_id'])
+      #             i=0
+      #             while i < len(data["majors"]):
+      #                if data["majors"][i]["major_id"]==intId or data["majors"][i]["major_id"]==strId:
+      #                   db.universities.update(
+      #                      {"abbreviation":data['abbreviation']},
+      #                      {'$set':{"majors."+str(i)+".score":datamajor['score']}}
+      #                   )
+      #                i=i+1
+      #    except:
+      #       print("error edit data")
       if province != None:
-         query['province'] = re.compile('^' + province + '$', re.IGNORECASE)
+         query['province'] = province
       elif macro_region != None:
-         query['macro_region'] = re.compile('^' + macro_region + '$', re.IGNORECASE)
+         query["macro_region"] = macro_region.title()
       if score != None:
          if not "majors" in query:
             query["majors"] = {}
@@ -127,7 +146,7 @@ class FormFindUniveristy(UnisecForm):
             query["majors"] = {}
          if not '$elemMatch' in query["majors"]:
             query["majors"]['$elemMatch'] = {}
-         query["majors"]['$elemMatch']['major_group'] = nganh_hoc_validated      
+         query["majors"]['$elemMatch']['major_id'] = nganh_hoc_validated      
       data = db.universities.find(query)
       print(query)
       # for test in data:
@@ -140,7 +159,7 @@ class FormFindUniveristy(UnisecForm):
          try:
             numOfUni += 1
             for major in uni['majors']:
-                  if nganh_hoc is not None and major['major_group'] != nganh_hoc_validated:
+                  if nganh_hoc is not None and major['major_id'] != nganh_hoc_validated:
                      # print(uni['name'] + ' break 1')
                      continue
                   if score is not None and float(score)-2 > float(major['score']) and float(score) +2 < float(major['score']):

@@ -33,7 +33,7 @@ class FormPriorityPoint(UnisecForm):
          
         dispatcher.utter_message("điểm cộng khu vực được tính như sau: Khu vực 1 (KV1): 0.75, Khu vực 2 (KV2): 0.25, Khu vực 2 nông thông (KV2-NT): 0.5, Khu vực 3 (KV3): không cộng")
         dispatcher.utter_message("tại " + entity_province_validated +", phân chia khu vực như sau")
-        dt = db.priority_point.find({'province': re.compile('^' + entity_province_validated + '$', re.IGNORECASE)})
+        dt = db.priority_point.find({'province': entity_province_validated})
         for e in dt:
             res = ""
             res += e['area']

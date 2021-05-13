@@ -1,6 +1,6 @@
 [
   {
-    "text": "điểm chuẩn khối A01 năm kia là bao nhiêu",
+    "text": "\u0111i\u1ec3m chu\u1ea9n kh\u1ed1i A01 n\u0103m kia l\u00e0 bao nhi\u00eau",
     "entities": [
       {
         "start": 16,
@@ -17,82 +17,125 @@
     ],
     "predicted_entities": [
       {
+        "entity": "entity_combine",
         "start": 16,
         "end": 19,
-        "value": "a01",
-        "entity": "entity_combine",
-        "confidence": 0.8988541990758285,
+        "confidence_entity": 0.911145540229809,
+        "value": "A01",
         "extractor": "CRFEntityExtractor"
       },
       {
         "entity": "entity_combine",
         "start": 16,
         "end": 19,
-        "extractor": "DIETClassifier",
-        "value": "A01"
+        "confidence_entity": 0.9999068975448608,
+        "value": "A01",
+        "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "năm ngoái trường Đại Học Ngoại Ngữ   Đại Học Đà Nẵng lấy bao nhiêu điểm",
+    "text": "n\u0103m ngo\u00e1i tr\u01b0\u1eddng \u0110\u1ea1i H\u1ecdc Ngo\u1ea1i Ng\u1eef \u2013 \u0110\u1ea1i H\u1ecdc \u0110\u00e0 N\u1eb5ng l\u1ea5y bao nhi\u00eau \u0111i\u1ec3m",
     "entities": [
       {
         "start": 4,
         "end": 9,
-        "value": "ngoái",
+        "value": "ngo\u00e1i",
         "entity": "entity_year"
       },
       {
         "start": 17,
         "end": 52,
-        "value": "Đại Học Ngoại Ngữ – Đại Học Đà Nẵng",
+        "value": "\u0110\u1ea1i H\u1ecdc Ngo\u1ea1i Ng\u1eef \u2013 \u0110\u1ea1i H\u1ecdc \u0110\u00e0 N\u1eb5ng",
         "entity": "entity_university"
       }
     ],
     "predicted_entities": [
       {
+        "entity": "entity_university",
         "start": 17,
         "end": 52,
-        "value": "đại_học ngoại_ngữ – đại_học đà_nẵng",
-        "entity": "entity_university",
-        "confidence": 0.9854052487578708,
+        "confidence_entity": 0.9903999133305625,
+        "value": "\u0110\u1ea1i H\u1ecdc Ngo\u1ea1i Ng\u1eef \u2013 \u0110\u1ea1i H\u1ecdc \u0110\u00e0 N\u1eb5ng",
         "extractor": "CRFEntityExtractor"
       },
       {
         "entity": "entity_university",
         "start": 17,
         "end": 52,
-        "extractor": "DIETClassifier",
-        "value": "Đại Học Ngoại Ngữ   Đại Học Đà Nẵng"
+        "confidence_entity": 0.5254929661750793,
+        "value": "\u0110\u1ea1i H\u1ecdc Ngo\u1ea1i Ng\u1eef \u2013 \u0110\u1ea1i H\u1ecdc \u0110\u00e0 N\u1eb5ng",
+        "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "Điểm chuẩn Đại Học Văn Hóa  Thể Thao Và Du Lịch Thanh Hóa 2019 khối b",
+    "text": "\u0111i\u1ec3m chu\u1ea9n TLU n\u0103m kia l\u00e0 bao nhi\u00eau",
     "entities": [
       {
         "start": 11,
-        "end": 57,
-        "value": "Đại Học Văn Hóa, Thể Thao Và Du Lịch Thanh Hóa",
+        "end": 14,
+        "value": "\u0110\u1ea1i h\u1ecdc Th\u0103ng Long",
         "entity": "entity_university"
       },
       {
-        "start": 58,
-        "end": 62,
-        "value": "2019",
+        "start": 19,
+        "end": 22,
+        "value": "2018",
         "entity": "entity_year"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "entity_university",
+        "start": 11,
+        "end": 14,
+        "confidence_entity": 0.7925658521818316,
+        "value": "\u0110\u1ea1i h\u1ecdc Th\u0103ng Long",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
       },
       {
-        "start": 68,
-        "end": 69,
-        "value": "b",
-        "entity": "entity_combine"
+        "entity": "entity_university",
+        "start": 11,
+        "end": 14,
+        "confidence_entity": 0.9997585415840149,
+        "value": "\u0110\u1ea1i h\u1ecdc Th\u0103ng Long",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tr\u01b0\u1eddng H\u1ecdc Vi\u1ec7n C\u00f4ng Ngh\u1ec7 B\u01b0u Ch\u00ednh Vi\u1ec5n Th\u00f4ng l\u1ea5y \u0111i\u1ec3m chu\u1ea9n bao nhi\u00eau",
+    "entities": [
+      {
+        "start": 7,
+        "end": 46,
+        "value": "H\u1ecdc Vi\u1ec7n C\u00f4ng Ngh\u1ec7 B\u01b0u Ch\u00ednh Vi\u1ec5n Th\u00f4ng ( ph\u00eda b\u1eafc )",
+        "entity": "entity_university"
       }
     ],
     "predicted_entities": []
   },
   {
-    "text": "những trường nào lấy điểm từ 18 đến 21 ở  tỉnh hà tây",
+    "text": "tr\u01b0\u1eddng n\u00e0o \u0111\u00e0o t\u1ea1o v\u1eadt l\u00fd k\u1ef9 thu\u1eadt",
+    "entities": [
+      {
+        "start": 19,
+        "end": 34,
+        "value": "v\u1eadt l\u00fd k\u1ef9 thu\u1eadt",
+        "entity": "entity_major"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "nh\u1eefng tr\u01b0\u1eddng n\u00e0o l\u1ea5y \u0111i\u1ec3m t\u1eeb 18 \u0111\u1ebfn 21 \u1edf  t\u1ec9nh h\u00e0 t\u00e2y",
     "entities": [
       {
         "start": 29,
@@ -109,191 +152,201 @@
       {
         "start": 47,
         "end": 53,
-        "value": "hà tây",
+        "value": "h\u00e0 t\u00e2y",
         "entity": "entity_province"
       }
     ],
     "predicted_entities": [
       {
+        "entity": "entity_score",
         "start": 29,
         "end": 31,
+        "confidence_entity": 0.9346397981652648,
         "value": "18",
-        "entity": "entity_score",
-        "confidence": 0.9359777203620753,
         "extractor": "CRFEntityExtractor"
       },
       {
+        "entity": "entity_score",
         "start": 36,
         "end": 38,
+        "confidence_entity": 0.9524177656111092,
         "value": "21",
-        "entity": "entity_score",
-        "confidence": 0.9377612717594465,
         "extractor": "CRFEntityExtractor"
       },
       {
         "entity": "entity_score",
         "start": 29,
         "end": 31,
-        "extractor": "DIETClassifier",
-        "value": "18"
+        "confidence_entity": 0.9986949563026428,
+        "value": "18",
+        "extractor": "DIETClassifier"
       },
       {
         "entity": "entity_score",
         "start": 36,
         "end": 38,
-        "extractor": "DIETClassifier",
-        "value": "21"
+        "confidence_entity": 0.9986538887023926,
+        "value": "21",
+        "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "Những trường nào đào tạo ngànhcông nghệ thông tin",
+    "text": "\u1edf h\u1ea3i d\u01b0\u01a1ng c\u00f3 tr\u01b0\u1eddng n\u00e0o \u0111\u00e0o t\u1ea1o v\u1eadt l\u00fd k\u1ef9 thu\u1eadt kh\u00f4ng",
     "entities": [
       {
-        "start": 30,
+        "start": 2,
+        "end": 11,
+        "value": "h\u1ea3i d\u01b0\u01a1ng",
+        "entity": "entity_province"
+      },
+      {
+        "start": 34,
         "end": 49,
-        "value": "công nghệ thông tin",
-        "entity": "entity_major"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "nên học cơ kĩ thuật ở trường nào",
-    "entities": [
-      {
-        "start": 8,
-        "end": 19,
-        "value": "cơ kĩ thuật",
-        "entity": "entity_major"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "địa chỉ trường đại học giao thôngđại học giao thông vận tải là gì ",
-    "entities": [
-      {
-        "start": 15,
-        "end": 33,
-        "value": "đại học giao thông",
-        "entity": "entity_university"
-      },
-      {
-        "start": 33,
-        "end": 59,
-        "value": "đại học giao thông vận tải",
-        "entity": "entity_university"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "trường học viện biên phòng có những ngành nào",
-    "entities": [
-      {
-        "start": 7,
-        "end": 26,
-        "value": "học viện biên phòng",
-        "entity": "entity_university"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "trường học viện cảnh sát nhân dân có đào tạo ngành công nghệ kỹ thuật xây dựng không",
-    "entities": [
-      {
-        "start": 7,
-        "end": 33,
-        "value": "học viện cảnh sát nhân dân",
-        "entity": "entity_university"
-      },
-      {
-        "start": 51,
-        "end": 78,
-        "value": "công nghệ kỹ thuật xây dựng",
+        "value": "v\u1eadt l\u00fd k\u1ef9 thu\u1eadt",
         "entity": "entity_major"
       }
     ],
     "predicted_entities": [
       {
+        "entity": "entity_province",
+        "start": 2,
+        "end": 11,
+        "confidence_entity": 0.8639183371380571,
+        "value": "h\u1ea3i d\u01b0\u01a1ng",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "entity_province",
+        "start": 2,
+        "end": 11,
+        "confidence_entity": 0.9992489218711853,
+        "value": "h\u1ea3i d\u01b0\u01a1ng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tr\u01b0\u1eddng h\u1ecdc vi\u1ec7n bi\u00ean ph\u00f2ng c\u00f3 nh\u1eefng ng\u00e0nh n\u00e0o",
+    "entities": [
+      {
+        "start": 7,
+        "end": 26,
+        "value": "h\u1ecdc vi\u1ec7n bi\u00ean ph\u00f2ng",
+        "entity": "entity_university"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tr\u01b0\u1eddng h\u1ecdc vi\u1ec7n c\u1ea3nh s\u00e1t nh\u00e2n d\u00e2n c\u00f3 \u0111\u00e0o t\u1ea1o ng\u00e0nh c\u00f4ng ngh\u1ec7 k\u1ef9 thu\u1eadt x\u00e2y d\u1ef1ng kh\u00f4ng",
+    "entities": [
+      {
+        "start": 7,
+        "end": 33,
+        "value": "h\u1ecdc vi\u1ec7n c\u1ea3nh s\u00e1t nh\u00e2n d\u00e2n",
+        "entity": "entity_university"
+      },
+      {
         "start": 51,
         "end": 78,
-        "value": "công_nghệ_kỹ_thuật xây_dựng",
+        "value": "c\u00f4ng ngh\u1ec7 k\u1ef9 thu\u1eadt x\u00e2y d\u1ef1ng",
+        "entity": "entity_major"
+      }
+    ],
+    "predicted_entities": [
+      {
         "entity": "entity_major",
-        "confidence": 0.9188267890955208,
+        "start": 51,
+        "end": 78,
+        "confidence_entity": 0.9191211535786457,
+        "value": "c\u00f4ng ngh\u1ec7 k\u1ef9 thu\u1eadt x\u00e2y d\u1ef1ng",
         "extractor": "CRFEntityExtractor"
       },
       {
         "entity": "entity_major",
         "start": 51,
         "end": 78,
-        "extractor": "DIETClassifier",
-        "value": "công nghệ kỹ thuật xây dựng"
+        "confidence_entity": 0.9644259810447693,
+        "value": "c\u00f4ng ngh\u1ec7 k\u1ef9 thu\u1eadt x\u00e2y d\u1ef1ng",
+        "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "Đại học giao thông vận tải có những ngành nào",
+    "text": "\u0110\u1ea1i h\u1ecdc giao th\u00f4ng v\u1eadn t\u1ea3i c\u00f3 nh\u1eefng ng\u00e0nh n\u00e0o",
     "entities": [
       {
         "start": 0,
         "end": 18,
-        "value": "Đại học giao thông",
+        "value": "\u0110\u1ea1i h\u1ecdc giao th\u00f4ng",
         "entity": "entity_university"
       }
     ],
     "predicted_entities": [
       {
+        "entity": "entity_university",
         "start": 0,
         "end": 26,
-        "value": "đại_học giao_thông vận_tải",
-        "entity": "entity_university",
-        "confidence": 0.6731202455908962,
+        "confidence_entity": 0.7843304365504241,
+        "value": "\u0110\u1ea1i h\u1ecdc giao th\u00f4ng v\u1eadn t\u1ea3i",
         "extractor": "CRFEntityExtractor"
       },
       {
         "entity": "entity_university",
         "start": 0,
         "end": 18,
-        "extractor": "DIETClassifier",
-        "value": "Đại học giao thông"
+        "confidence_entity": 0.975957989692688,
+        "value": "\u0110\u1ea1i h\u1ecdc giao th\u00f4ng",
+        "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "chỉ tiêu tuyển sinh ngành phân tích đầu tư tài chính trường đại học thương mại là bao nhiêu",
+    "text": "ch\u1ec9 ti\u00eau tuy\u1ec3n sinh ng\u00e0nh ph\u00e2n t\u00edch \u0111\u1ea7u t\u01b0 t\u00e0i ch\u00ednh tr\u01b0\u1eddng \u0111\u1ea1i h\u1ecdc th\u01b0\u01a1ng m\u1ea1i l\u00e0 bao nhi\u00eau",
     "entities": [
       {
         "start": 26,
         "end": 52,
-        "value": "phân tích đầu tư tài chính",
+        "value": "ph\u00e2n t\u00edch \u0111\u1ea7u t\u01b0 t\u00e0i ch\u00ednh",
         "entity": "entity_major"
       },
       {
         "start": 60,
         "end": 78,
-        "value": "đại học thương mại",
+        "value": "\u0111\u1ea1i h\u1ecdc th\u01b0\u01a1ng m\u1ea1i",
         "entity": "entity_university"
       }
     ],
     "predicted_entities": [
       {
+        "entity": "entity_university",
         "start": 60,
         "end": 78,
-        "value": "đại_học thương_mại",
-        "entity": "entity_university",
-        "confidence": 0.859622950702806,
+        "confidence_entity": 0.9129811498478105,
+        "value": "\u0111\u1ea1i h\u1ecdc th\u01b0\u01a1ng m\u1ea1i",
         "extractor": "CRFEntityExtractor"
       },
       {
         "entity": "entity_university",
         "start": 60,
         "end": 78,
-        "extractor": "DIETClassifier",
-        "value": "đại học thương mại"
+        "confidence_entity": 0.9996323585510254,
+        "value": "\u0111\u1ea1i h\u1ecdc th\u01b0\u01a1ng m\u1ea1i",
+        "extractor": "DIETClassifier"
       }
     ]
+  },
+  {
+    "text": "d\u1ea1 l\u00e0 n\u0103m ngo\u00e1i",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "2019",
+        "entity": "entity_year"
+      }
+    ],
+    "predicted_entities": []
   }
 ]

@@ -1,0 +1,337 @@
+﻿[
+  {
+    "rank": "1",
+    "university": "Đại học Quốc gia Hà Nội",
+    "province": "Hà Nội"
+  },
+  {
+    "rank": "2",
+    "university": "Đại học Đà Nẵng",
+    "province": "Đà Nẵng"
+  },
+  {
+    "rank": "3",
+    "university": "Đại học Bách khoa Hà Nội",
+    "province": "Hà Nội"
+  },
+  {
+    "rank": "4",
+    "university": "Đại học FPT",
+    "province": "Hà Nội"
+  },
+  {
+    "rank": "5",
+    "university": "Đại học Cần Thơ",
+    "province": "Cần Thơ"
+  },
+  {
+    "rank": "6",
+    "university": "Đại học Kinh tế TP. HCM",
+    "province": "TP. HCM"
+  },
+  {
+    "rank": "7",
+    "university": "Đại học Khoa học Tự nhiên TP. HCM",
+    "province": "TP. HCM"
+  },
+  {
+    "rank": "8",
+    "university": "Đại học HUTECH",
+    "province": "TP. HCM"
+  },
+  {
+    "rank": "9",
+    "university": "Đại học Giao thông vận tải TP. HCM",
+    "province": "TP. HCM"
+  },
+  {
+    "rank": "10",
+    "university": "Đại học Bách khoa TP. HCM",
+    "province": "TP. HCM"
+  },
+  {
+    "rank": "11",
+    "university": "Đại học Công nghệ Thông tin TP. HCM",
+    "province": "TP. HCM"
+  },
+  {
+    "rank": "12",
+    "university": "Đại học Kinh tế Quốc dân",
+    "province": "Hà Nội"
+  },
+  {
+    "rank": "13",
+    "university": "Đại học Duy Tân",
+    "province": "Đà Nẵng"
+  },
+  {
+    "rank": "14",
+    "university": "Đại học Sư phạm Hà Nội",
+    "province": "Hà Nội"
+  },
+  {
+    "rank": "15",
+    "university": "Đại học Ngoại thương",
+    "province": "Hà Nội"
+  },
+  {
+    "rank": "16",
+    "university": "Đại học Văn Lang",
+    "province": "TP. HCM"
+  },
+  {
+    "rank": "17",
+    "university": "Đại học Thái Nguyên",
+    "province": "Thái Nguyên"
+  },
+  {
+    "rank": "18",
+    "university": "Đại học Sư phạm Kỹ thuật TP. HCM",
+    "province": "TP. HCM"
+  },
+  {
+    "rank": "19",
+    "university": "Đại học Quốc gia TP. HCM",
+    "province": "TP. HCM"
+  },
+  {
+    "rank": "20",
+    "university": "Đại học Nông lâm TP. HCM",
+    "province": "TP. HCM"
+  },
+  {
+    "rank": "21",
+    "university": "Đại học Hàng hải Việt Nam",
+    "province": "Hải Phòng"
+  },
+  {
+    "rank": "22",
+    "university": "Đại học Khoa học Xã hội và Nhân văn",
+    "province": "TP. HCM"
+  },
+  {
+    "rank": "23",
+    "university": "Đại học Nông nghiệp Hà Nội",
+    "province": "Hà Nội"
+  },
+  {
+    "rank": "24",
+    "university": "Đại học Xây dựng",
+    "province": "Hà Nội"
+  },
+  {
+    "rank": "25",
+    "university": "Đại học Thủy lợi",
+    "province": "Hà Nội"
+  },
+  {
+    "rank": "26",
+    "university": "Đại học Quốc tế TP. HCM",
+    "province": "TP. HCM"
+  },
+  {
+    "rank": "27",
+    "university": "Đại học Hà Nội",
+    "province": "Hà Nội"
+  },
+  {
+    "rank": "28",
+    "university": "Đại học Huế",
+    "province": "Huế"
+  },
+  {
+    "rank": "29",
+    "university": "Đại học Giao thông Vận tải",
+    "province": "Hà Nội"
+  },
+  {
+    "rank": "30",
+    "university": "Đại học Sư phạm TP. HCM",
+    "province": "TP. HCM"
+  },
+  {
+    "rank": "31",
+    "university": "Đại học Nha Trang",
+    "province": "Khánh Hòa"
+  },
+  {
+    "rank": "32",
+    "university": "Đại học Mỏ – Địa chất",
+    "province": "Hà Nội"
+  },
+  {
+    "rank": "33",
+    "university": "Đại học Sài Gòn",
+    "province": "TP. HCM"
+  },
+  {
+    "rank": "34",
+    "university": "Đại học Lạc Hồng",
+    "province": "Đồng Nai"
+  },
+  {
+    "rank": "35",
+    "university": "Đại học Vinh",
+    "province": "Vinh"
+  },
+  {
+    "rank": "36",
+    "university": "Đại học Kinh tế Luật",
+    "province": "TP. HCM"
+  },
+  {
+    "rank": "37",
+    "university": "Đại học Quốc tế Hồng Bàng",
+    "province": "TP. HCM"
+  },
+  {
+    "rank": "38",
+    "university": "Đại học Khoa học Tự nhiên",
+    "province": "TP. HCM"
+  },
+  {
+    "rank": "39",
+    "university": "Đại học Luật TP. HCM",
+    "province": "TP. HCM"
+  },
+  {
+    "rank": "40",
+    "university": "Đại học Y Hà Nội",
+    "province": "Hà Nội"
+  },
+  {
+    "rank": "41",
+    "university": "Đại học Ngoại ngữ Tin học TP. HCM",
+    "province": "TP. HCM"
+  },
+  {
+    "rank": "42",
+    "university": "Đại học Thương mại",
+    "province": "Hà Nội"
+  },
+  {
+    "rank": "43",
+    "university": "Đại học Kiến trúc TP. HCM",
+    "province": "TP. HCM"
+  },
+  {
+    "rank": "44",
+    "university": "Đại học Công nghiệp Hà Nội",
+    "province": "Hà Nội"
+  },
+  {
+    "rank": "45",
+    "university": "Đại học Y dược TP. HCM",
+    "province": "TP. HCM"
+  },
+  {
+    "rank": "46",
+    "university": "Đại học Văn hóa Hà Nội",
+    "province": "Hà Nội"
+  },
+  {
+    "rank": "47",
+    "university": "Đại học Đà Lạt",
+    "province": "Đà Lạt"
+  },
+  {
+    "rank": "48",
+    "university": "Đại học Phương Đông",
+    "province": "Hà Nội"
+  },
+  {
+    "rank": "49",
+    "university": "Đại học Kiến trúc Hà Nội",
+    "province": "Hà Nội"
+  },
+  {
+    "rank": "50",
+    "university": "Đại học Luật Hà Nội",
+    "province": "Hà Nội"
+  },
+  {
+    "rank": "51",
+    "university": "Đại học Tây Bắc",
+    "province": "Sơn La"
+  },
+  {
+    "rank": "52",
+    "university": "Đại học Hồng Đức",
+    "province": "Thanh Hóa"
+  },
+  {
+    "rank": "53",
+    "university": "Đại học Kinh doanh và Công nghệ",
+    "province": "Hà Nội"
+  },
+  {
+    "rank": "54",
+    "university": "Đại học Bà Rịa Vũng Tàu",
+    "province": "Vũng Tàu"
+  },
+  {
+    "rank": "55",
+    "university": "Đại học Quy Nhơn",
+    "province": "Quy Nhơn"
+  },
+  {
+    "rank": "56",
+    "university": "Đại học Y dược Thái Bình",
+    "province": "Thái Bình"
+  },
+  {
+    "rank": "57",
+    "university": "Đại học Hùng Vương",
+    "province": "Phú Thọ"
+  },
+  {
+    "rank": "58",
+    "university": "Đại học Công nghệ Đồng Nai",
+    "province": "Đồng Nai"
+  },
+  {
+    "rank": "59",
+    "university": "Đại học Dược Hà Nội",
+    "province": "Hà Nội"
+  },
+  {
+    "rank": "60",
+    "university": "Đại học Y Hải Phòng",
+    "province": "Hải Phòng"
+  },
+  {
+    "rank": "61",
+    "university": "Đại học Mỹ thuật Công nghiệp",
+    "province": "Hà Nội"
+  },
+  {
+    "rank": "62",
+    "university": "Đại học Bạc Liêu",
+    "province": "Bạc Liêu"
+  },
+  {
+    "rank": "63",
+    "university": "Đại học Đông Đô",
+    "province": "Hà Nội"
+  },
+  {
+    "rank": "64",
+    "university": "Đại học Công nghệ và Quản lý Hữu Nghị",
+    "province": "Hà Nội"
+  },
+  {
+    "rank": "65",
+    "university": "Đại học Công nghiệp Dệt may Hà Nội",
+    "province": "Hà Nội"
+  },
+  {
+    "rank": "66",
+    "university": "Đại học Công nghệ Miền Đông",
+    "province": "Đồng Nai"
+  },
+  {
+    "rank": "67",
+    "university": "Đại học Hải Dương",
+    "province": "Hải Dương"
+  }
+]

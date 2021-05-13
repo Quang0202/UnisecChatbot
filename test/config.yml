@@ -1,11 +1,30 @@
-# Configuration for Rasa NLU.
-# https://rasa.com/docs/rasa/nlu/components/
-language: en
-pipeline: supervised_embeddings
+language: vi
+pipeline:
+#- name: ViCustomComponent
+- name: SpacyNLP
+  model: "vi_spacy_model"
+  case_sensitive: false
+- name: SpacyTokenizer
+- name: SpacyFeaturizer
+- name: RegexFeaturizer
+- name: LexicalSyntacticFeaturizer
+- name: CRFEntityExtractor
+- name: CountVectorsFeaturizer
+- name: CountVectorsFeaturizer
+  min_ngram: 1
+  max_ngram: 4
 
-# Configuration for Rasa Core.
-# https://rasa.com/docs/rasa/core/policies/
+- name: DIETClassifier
+- name: EntitySynonymMapper
 policies:
-  - name: MemoizationPolicy
-  - name: KerasPolicy
-  - name: MappingPolicy
+- name: TEDPolicy
+  epochs: 50
+  max_history: 8
+- name: MemoizationPolicy
+  max_history: 5
+- name: FallbackPolicy
+  nlu_threshold: 0.3
+  ambiguity_threshold: 0.1
+  core_threshold: 0.3
+- name: MappingPolicy
+- name: FormPolicy

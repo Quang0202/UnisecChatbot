@@ -35,7 +35,8 @@ class FormJob(UnisecForm):
       if entity_major_validated != None:   
          res = ""
          try:
-            dt = db.major_info.find_one({'id': re.compile('^' + entity_major_validated + '$', re.IGNORECASE)})
+            major_validated_int = int(entity_major_validated)
+            dt = db.major_info.find_one({'major_id': {'$in': [major_validated_int, entity_major_validated]}})
             res = dt['job']
             dispatcher.utter_message("sau đây là thông tin về cơ hội việc làm của " + entity_major)
             dispatcher.utter_message(res)

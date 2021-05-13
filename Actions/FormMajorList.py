@@ -46,7 +46,7 @@ class FormMajorList(UnisecForm):
          res = []
          res.append(['mã ngành', 'tên ngành', 'tổ hợp'])
          try:
-            dt = db.universities.find_one({'abbreviation': re.compile('^' + entity_university_validated + '$', re.IGNORECASE)})
+            dt = db.universities.find_one({'abbreviation':entity_university_validated})
             dt = dt['majors']
             for i in dt:
                 res.append([i['major_id'], i['major_name'], i['major_combine']])
